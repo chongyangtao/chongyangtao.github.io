@@ -1,0 +1,16 @@
+@charset "UTF-8";
+/* CSS Document */
+body{margin:0 auto; padding:0; background:url(../images/blank.png) repeat-x; font-size:12px; font-family:"宋体";}
+h1,h2,h3,ul,li,dd,dt,input,img{margin:0 auto; padding:0; list-style:none; outline:none;}
+/*header*/
+#header{ width:980px; height:100px; padding:0; margin:0 auto;}
+.topNav{ float:left; height:80px; width:400px;padding:16px 0 0 0;}
+.topNav img{float:left; margin:0 auto;}
+.topNavL{ float:right; height:80px; width:200px; padding:16px 0 0 0; font-size:14px; background-color:#0C0;}
+.topNavL a:link,.topNavL a:visited{text-decoration:none; color:#333;}
+.topNavL a:hover{ text-decoration:underline;}
+.topNavL span{ padding:0 5px 0 5px; color:#333; width:10px; height:60px;}
+.toptelePhone{ font-size:16px; color:#F00; height:80px; width:200px; margin:40px 0px 0px 0px; float:right;}
+
+
+
