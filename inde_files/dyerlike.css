@@ -60,7 +60,9 @@ li {
 td { padding: 0px 5px 0px 0px; }
 
 code, pre, tt {
-    font: 12pt Consolas, Monaco, monospace;
+    font: 12pt monospace;
+    /*font: 12pt Consolas, Monaco, monospace;*/
+
 }
 
 pre {
