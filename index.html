@@ -1,7 +1,16 @@
 
 <HTML>
 <HEAD>
+    <meta charset="UTF-8">
 <meta http-equiv="content-type" content="text/html; charset=windows-1252">
+
+
+<style>
+      li {
+        color: #666666;
+      }
+</style>
+
 <link href="logo.png" rel="shortcut icon" />
 <title>Chongyang Tao</title>
     <link rel="stylesheet" href="inde_files/dyerlike.css"/>
@@ -21,7 +30,7 @@
 
 </ul>
 </nav>
-<h2>Chongyang Tao </h2> 
+<h2>Chongyang Tao (陶重阳) </h2> 
 </header>
 
 
@@ -29,7 +38,7 @@
 <img src="chonyang2.png" alt="me" hspace="20" vspace="0" width="120" align="left">
  
 
-Chongyang Tao is currently a senior applied scientist at <a href="https://www.microsoft.com" target="_blank">Microsoft</a>. He obtained the Ph.D. degree from <a href="https://www.pku.edu.cn/" target="_blank">Peking University</a> (PKU) in 2020, and the B. Eng degree from <a href="https://www.scu.edu.cn/" target="_blank">Sichuan University</a> (SCU) in 2015. Currently, his research interests mainly lie in natural language processing and information retrieval, especially in deep learning models with their applications in dialogue systems, text generation, language understanding, and text ranking. He has publications at top conferences, including ACL, EMNLP, NAACL, ICLR, NeruIPS, SIGIR, WSDM, WWW, AAAI, IJCAI.
+Chongyang Tao is currently a senior applied scientist at <a href="https://www.microsoft.com" target="_blank">Microsoft</a>. He obtained the Ph.D. degree from <a href="https://www.pku.edu.cn/" target="_blank">Peking University</a> (PKU) in 2020, and the B. Eng degree from <a href="https://www.scu.edu.cn/" target="_blank">Sichuan University</a> (SCU) in 2015. Currently, his research interests mainly lie in natural language processing and information retrieval, especially in deep learning models with their applications in dialogue systems, text generation, language understanding, and information retrieval. He has publications at top conferences, including ACL, EMNLP, NAACL, ICLR, NeruIPS, KDD, SIGIR, WSDM, WWW, AAAI, IJCAI.
 
 <!-- Email: <a href="mailto:chongyangtao@gmail.com">chongyangtao@gmail.com</a> -->
 
@@ -39,21 +48,37 @@ Chongyang Tao is currently a senior applied scientist at <a href="https://www.mi
 <section>
 <h2> <strong>News</strong></h2><br>
 
-<li>Jan.2023: One paper got accepted to WWW 2023.</li>
 
-<li>Jan.2023: Three papers got accepted to ICLR 2023.</li>
+<li>Aug.2023: WizardCoder achieves the 1st-rank on <a href="https://huggingface.co/spaces/bigcode/multilingual-code-evals"target="_blank">Multilingual Code Models Evaluation Leaderboard</a> <img src="new_card.png" alt="Smiley face" width="40" height="32" style="vertical-align:middle"> </li>
 
-<li>Oct.2022: Three papers got accepted to EMNLP 2022 main proceeding.</li>
+<li>Jun.2023: WizardLM achieves the 1st-rank of the opensource models on <a href="https://tatsu-lab.github.io/alpaca_eval/"target="_blank">Standford AlpacaEval Leaderboard</a> <img src="new_card.png" alt="Smiley face" width="40" height="32" style="vertical-align:middle">  </li>
+
+<!-- <li>Jul.2023: One paper got accepted to ICSE 2023.</li> -->
+
+<li>May.2023: We propose <mark>InteR</mark> to facilitate knowledge refinement between SEs and LLMs. <a href="https://arxiv.org/pdf/2305.07402"target="_blank"> [Paper]</a>  <a href="https://github.com/Cyril-JZ/InteR"target="_blank"> [Github]</a>  <img src="new_card.png" alt="Smiley face" width="40" height="32" style="vertical-align:middle">  </li>
+
+<li>Apr.2023: We release <mark>WizardLM</mark> (expertized in following complex instructions) <a href="https://arxiv.org/abs/2304.12244"target="_blank"> [Paper]</a> <a href="https://github.com/nlpxucan/WizardLM"target="_blank"> [Github]</a> (4.6K Stars)  <img src="new_card.png" alt="Smiley face" width="40" height="32" style="vertical-align:middle"> </li>
+
+
+<li>May.2023: Our paper got accepted to KDD 2023.</li>
+
+<li>May.2023: Our papers got accepted to ACL 2023.</li>
+
+<li>Jan.2023: Our paper got accepted to WWW 2023. </li>
+
+<li>Jan.2023: Our papers got accepted to ICLR 2023. Our LexMAE achives SOTA performance on MSMarco passage retrieval.</li>
+
+<!-- <li>Oct.2022: Three papers got accepted to EMNLP 2022.</li> -->
 
 <!-- <li>Sep.2022: One paper got accepted to COLING 2022.</li> -->
 
 <!-- <li>Aug.2022: One paper got accepted to CIKM 2022.</li> -->
 
-<li>Apr.2022: One paper got accepted to NAACL 2022 main proceeding.</li>
+<!-- <li>Apr.2022: One paper got accepted to NAACL 2022.</li> -->
 
-<li>Feb.2022: Five papers got accepted to ACL 2022 main proceeding.</li>
+<!-- <li>Feb.2022: Five papers got accepted to ACL 2022 main proceeding.</li> -->
 
-<li>Oct.2021: One paper got accepted to WSDM 2022.</li>
+<!-- <li>Oct.2021: One paper got accepted to WSDM 2022.</li> -->
 
 <!-- <li>Sep.2021: One paper got accepted to NeurIPS 2021.</li> -->
 
@@ -88,27 +113,184 @@ Chongyang Tao is currently a senior applied scientist at <a href="https://www.mi
 
 
 <section>
-<h2> <strong>Work Experiences</strong></h2>
+<!-- <h2> <strong>Work/Research Experiences</strong></h2> -->
 <ul>
 <li> 2022/11 - Now: Senior Applied Scientist, Microsoft STCA, Beijing, China</li>
     <ul style="list-style-type:circle">
-        <li> Mainly focus on the improvement and research for <a href="www.bing.com" target="_blank">BING Search.</a>. </li>
-        <li> Research Interests: 1) Representation learning in IR; 2) Learning to rank; 3) Conversational search. </li>
+        <li> Mainly focus on the improvement and research for <a href="www.bing.com" target="_blank">BING Search <img src="bing.png" alt="Smiley face" width="20" height="20" style="vertical-align:middle"></a> . </li>
+        <li> Research Interests: 1) Representation learning in IR; 2) Effective IR (Distillation); 3) LLMs for search & Generative IR;  </li>
+        <!-- <li> <u>Highlight 1 </u>: 
+                <u><a href="none" target="_blank">LED</a></u> (WWW'23), 
+                <u><a href="none" target="_blank">HypeR</a></u> (ICLR'23), 
+                <u><a href="none" target="_blank">LexMAE</a></u> (ICLR'23), 
+                <u><a href="none" target="_blank">UnifieR</a></u> (KDD'23), 
+                <u><a href="none" target="_blank">R<sup>2</sup>anker </a></u>(ACL'23), <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <u><a href="none" target="_blank">PCL</a></u>(EMNLP'22), 
+                <u><a href="none" target="_blank">LexLIP </a></u>(ICCV'23)
+            </li>
+        <li> <u>Highlight 2</u>: 
+                <u><a href="none" target="_blank">ADAM</a></u> (Arxiv'22), 
+                <u><a href="https://arxiv.org/pdf/2212.10423.pdf" target="_blank">FGD</a></u> (arxiv'22),
+                <u><a href="none" target="_blank">MGSKD</a></u> (ACL'22),
+                <u><a href="none" target="_blank">ContextualKD</a></u> (EMNLP'22)  
+                <u><a href="none" target="_blank">CoRE</a></u> (ACL'23), 
+            </li>
+        <li> <u>Highlight 3</u>: 
+                <u><a href="none" target="_blank">InteR</a></u> (arxiv'23), 
+                <u><a href="none" target="_blank">WizardLLM</a></u> (arxiv'23), 
+                <u><a href="none" target="_blank">LameR</a></u> (arxiv'23), 
+                <u><a href="none" target="_blank">PKG</a></u> (arxiv'23)
+            </li> -->
+        <p style="border: 1.2px dotted gray; "> 
+            <br style="line-height: 3px" />
+            &nbsp;&nbsp; Highlight 1: 
+                <u><a href="https://arxiv.org/pdf/2208.13661.pdf" target="_blank">LED</a></u> (WWW'23), 
+                <u><a href="https://openreview.net/forum?id=kUf4BcWXGJr" target="_blank">HypeR</a></u> (ICLR'23), 
+                <u><a href="https://arxiv.org/pdf/2208.14754.pdf" target="_blank">LexMAE</a></u> (ICLR'23), 
+                <u><a href="https://arxiv.org/pdf/2205.11194.pdf" target="_blank">UnifieR</a></u> (KDD'23), 
+                <u><a href="https://aclanthology.org/2023.findings-acl.332.pdf" target="_blank">R<sup>2</sup>anker </a></u>(ACL'23), <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <u><a href="https://aclanthology.org/2022.emnlp-main.826.pdf" target="_blank">PCL</a></u>(EMNLP'22), 
+                <u><a href="none" target="_blank">LexLIP</a></u>(ICCV'23)
+            <br>
+            &nbsp;&nbsp; Highlight 2: 
+                <u><a href="none" target="_blank">ADAM</a></u> (Arxiv'22), 
+                <u><a href="https://arxiv.org/pdf/2212.10423.pdf" target="_blank">FGD</a></u> (arxiv'22),
+                <u><a href="none" target="_blank">MGSKD</a></u> (ACL'22),
+                <u><a href="https://aclanthology.org/2022.emnlp-main.729.pdf" target="_blank">ContextualKD</a></u> (EMNLP'22),
+                <u><a href="none" target="_blank">CoRE</a></u> (ACL'23)
+            <br>
+            &nbsp;&nbsp; Highlight 3: 
+                <u><a href="none" target="_blank">InteR</a></u> (arxiv'23), 
+                <u><a href="none" target="_blank">WizardLLM</a></u> (arxiv'23), 
+                <u><a href="none" target="_blank">LameR</a></u> (arxiv'23), 
+                <u><a href="none" target="_blank">PKG</a></u> (arxiv'23)
+            <br> 
+            <br style="line-height: 8px" />
+        </p>
+
     </ul>
 
 
 <li> 2020/07 - 2022/11: Postdoctoral Applied Scientist, Microsoft STCA, Beijing, China</li>
     <ul style="list-style-type:circle">
         <li> Mainly responsible for the research and improvement of <a href="https://blogs.bing.com/search-quality-insights/2017-05/making-search-conversational-finding-and-chatting-with-bots-on-bing" target="_blank">Chat with BING</a> (a virtual assistant for BING).</li>
-        <li> Research Interests: 1) Universal dialogue understanding model; 2) Knowledge-driven conversation; 3) Multi-party conversation; 4) Multi-modal conversation </li>
+        <li> Research Interests: 1) Knowledge-driven conversation; 2) Multi-party conversation; 3) Multi-modal conversation </li>
+        <!-- 1) Universal dialogue understanding model; 2 -->
+        <!-- <li> <u>Highlight 1</u>:   
+                <u><a href="none" target="_blank">DRD</a></u> (ICLR'20), 
+                <u><a href="none" target="_blank">KnowledGPT</a></u> (EMNLP'20), 
+                <u><a href="none" target="_blank">ZRKGC</a></u> (NeurIPS'21), 
+                <u><a href="none" target="_blank">TegTok</a></u> (ACL'21), 
+                <u><a href="none" target="_blank">PTKGC</a></u> (ACL'21), <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <u><a href="none" target="_blank">PersonaKGC</a></u> (ACL'22), 
+                <u><a href="none" target="_blank">DivKGC</a></u> (EMNLP'22)
+            </li> 
+        <li> <u>Highlight 2</u>:  
+                <u><a href="none" target="_blank">MPC-BERT</a></u> (ACL'21), 
+                <u><a href="none" target="_blank">HeterMPC</a></u> (ACL'22), 
+                <u><a href="none" target="_blank">MPCSurvey</a></u> (IJCAI'22), 
+                <u><a href="none" target="_blank">BERT-SL</a></u> (AAAI'21)
+            </li>
+        <li> <u>Highlight 3</u>:  
+                <u><a href="none" target="_blank">Maria</a></u> (ACL'21), 
+                <u><a href="none" target="_blank">MMDial</a></u> (ACL'22), 
+                <u><a href="none" target="_blank">VideoDial</a></u> (EMNLP'22)
+            </li> -->
+       
+        <p style="border: 1.2px dotted gray; "> 
+            <br style="line-height: 3px" />
+            &nbsp;&nbsp; Highlight 1: 
+                <u><a href="none" target="_blank">DRD</a></u> (ICLR'20), 
+                <u><a href="none" target="_blank">KnowledGPT</a></u> (EMNLP'20), 
+                <u><a href="none" target="_blank">ZRKGC</a></u> (NeurIPS'21), 
+                <u><a href="none" target="_blank">TegTok</a></u> (ACL'21), 
+                <u><a href="none" target="_blank">PTKGC</a></u> (ACL'21), <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <u><a href="none" target="_blank">PersonaKGC</a></u> (ACL'22), 
+                <u><a href="https://aclanthology.org/2022.emnlp-main.123.pdf" target="_blank">DivKGC</a></u> (EMNLP'22)
+            <br>
+            &nbsp;&nbsp; Highlight 2: 
+                <u><a href="none" target="_blank">MPC-BERT</a></u> (ACL'21), 
+                <u><a href="none" target="_blank">HeterMPC</a></u> (ACL'22), 
+                <u><a href="https://www.ijcai.org/proceedings/2022/768" target="_blank">MPCSurvey</a></u> (IJCAI'22), 
+                <u><a href="none" target="_blank">BERT-SL</a></u> (AAAI'21)
+            <br>
+            &nbsp;&nbsp; Highlight 3: 
+                <u><a href="none" target="_blank">Maria</a></u> (ACL'21), 
+                <u><a href="none" target="_blank">MMDial</a></u> (ACL'22), 
+                <u><a href="https://aclanthology.org/2022.findings-emnlp.442.pdf" target="_blank">VideoDial</a></u> (EMNLP'22)
+            <br> 
+            <br style="line-height: 8px" />
+        </p>
 </ul>
+
+
+
+<li> 2016/11 - 2020/05: Ph.D. Candidate, Peking University, Beijing, China</li>
+    <ul style="list-style-type:circle">
+        <li>Research Interests: 1) Human-centered dialogue generation; 2) Dialogue retrieval & context modeling; 3) Open-domain dialogue evaluation.</li>
+        <!-- <li><u>Highlight 1</u>:  
+            <u><a href="https://www.ijcai.org/proceedings/2018/0614.pdf" target="_blank">CMHA </a></u> (IJCAI'18), 
+            <u><a href="https://arxiv.org/pdf/2004.14592.pdf" target="_blank">EnsembleGAN </a></u> (SIGIR'19), 
+            <u><a href="none" target="_blank">MetaDial </a></u> (ACL'19), 
+            <u><a href="none" target="_blank">ProphetChat </a></u> (ACL'22) 
+         </li>
+        <li><u>Highlight 2</u>:
+            [Context Modeling]
+            <u><a href="https://aclanthology.org/P19-1001.pdf" target="_blank">IOI </a></u> (ACL'19),  
+            <u><a href="https://dl.acm.org/doi/10.1145/3289600.3290985" target="_blank">MRFN </a></u> (WSDM'19), 
+            <u><a href="none" target="_blank">ECMO</a></u> (SIGIR'20), 
+            <u><a href="none" target="_blank">IR2 </a></u> (EMNLP'22),
+            <u><a href="https://www.ijcai.org/Proceedings/2019/0756.pdf" target="_blank">DGMN </a></u> (IJCAI'19), 
+            <u><a href="none" target="_blank">WDMN </a></u> (TOIS'21),             <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            [Learning to Rank]
+            <u><a href="https://aclanthology.org/P19-1370.pdf" target="_blank">CoT</a></u> (ACL'19), 
+            <u><a href="https://aclanthology.org/D19-1128.pdf" target="_blank">HardSamp </a></u> (EMNLP'20), 
+            <u><a href="none" target="_blank">UdaRS</a></u> (WSDM'22) 
+        </li>
+        <li><u>Highlight 3</u>: 
+            <u><a href="https://arxiv.org/pdf/1701.03079.pdf" target="_blank">Ruber</a></u> (AAAI'18)
+        </li> -->
+
+        <p style="border: 1.2px dotted gray; "> 
+            <br style="line-height: 3px" />
+            &nbsp;&nbsp; Highlight 1: 
+                <u><a href="https://www.ijcai.org/proceedings/2018/0614.pdf" target="_blank">CMHA </a></u> (IJCAI'18), 
+                <u><a href="https://arxiv.org/pdf/2004.14592.pdf" target="_blank">EnsembleGAN </a></u> (SIGIR'19), 
+                <u><a href="none" target="_blank">MetaDial </a></u> (ACL'19), 
+                <u><a href="none" target="_blank">ProphetChat </a></u> (ACL'22) 
+            <br>
+            &nbsp;&nbsp; Highlight 2: 
+                [Context Modeling]
+                <u><a href="https://aclanthology.org/P19-1001.pdf" target="_blank">IOI </a></u> (ACL'19),  
+                <u><a href="https://dl.acm.org/doi/10.1145/3289600.3290985" target="_blank">MRFN </a></u> (WSDM'19), 
+                <u><a href="none" target="_blank">ECMO</a></u> (SIGIR'20), 
+                <u><a href="https://aclanthology.org/2022.findings-emnlp.539.pdf" target="_blank">IR2 </a></u> (EMNLP'22),
+                <!-- <u><a href="https://www.ijcai.org/Proceedings/2019/0756.pdf" target="_blank">DGMN </a></u> (IJCAI'19), -->
+                <!-- <u><a href="none" target="_blank">WDMN </a></u> (TOIS'21), -->
+                 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                [Learning to Rank]
+                <u><a href="https://aclanthology.org/P19-1370.pdf" target="_blank">CoT</a></u> (ACL'19), 
+                <u><a href="https://aclanthology.org/D19-1128.pdf" target="_blank">HardSamp </a></u> (EMNLP'20), 
+                <u><a href="none" target="_blank">UdaRS</a></u> (WSDM'22) 
+            <br>
+            &nbsp;&nbsp; Highlight 3: 
+                <u><a href="https://arxiv.org/pdf/1701.03079.pdf" target="_blank">Ruber</a></u> (AAAI'18)
+
+            <br> 
+            <br style="line-height: 8px" />
+        </p>
+
+    </ul>
 
 <li> 2017/11 - 2020/02: Research Development Engineering Intern, Microsoft STCA, Beijing, China</li>
     <ul style="list-style-type:circle">
         <li>Focus on the research of open-domain dialogue and the improvement of the core chat engine in MS.</li>
-        <li>Highlight1 (2019/03-2019/06): Participate in the design and implementation of retrieval-based modules for the empathy dialogue model in <a href="https://en.wikipedia.org/wiki/Xiaoice" target="_blank">Microsoft Rinna</a>, and help collaborators ship it to the product.</li>
-        <li>Highlight2 (2018/03-2018/06): Responsible for designing neural-based ranking features for <a href="https://en.wikipedia.org/wiki/Zo_(bot)" target="_blank">Microsoft Zo</a>. The improvement to the original system on positive precision is 3.36%.</li>
+        <li>Highlight 1 (2019/03-2019/06): Participate in the design and implementation of retrieval-based modules for the empathy dialogue model in <a href="https://en.wikipedia.org/wiki/Xiaoice" target="_blank">Microsoft Rinna</a>, and help collaborators ship it to the product.</li>
+        <li>Highlight 2 (2018/03-2018/06): Responsible for designing neural-based ranking features for <a href="https://en.wikipedia.org/wiki/Zo_(bot)" target="_blank">Microsoft Zo</a>.  <!-- The improvement to the original system on positive precision is 3.36%. -->
+            </li>
     </ul>
+
+
 </ul>
 
 <a href="https://www.easycounter.com/">
