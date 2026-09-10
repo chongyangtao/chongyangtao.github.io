@@ -1,0 +1,2034 @@
+{
+  "version": 1,
+  "filters": [
+    {
+      "id": "all",
+      "label": "All"
+    },
+    {
+      "id": "reward-model",
+      "label": "Reward Model"
+    },
+    {
+      "id": "context-engineering",
+      "label": "Context Engineering"
+    },
+    {
+      "id": "multi-party-conversation",
+      "label": "Multi-party Conversation"
+    },
+    {
+      "id": "generation",
+      "label": "Generation"
+    },
+    {
+      "id": "information-retrieval",
+      "label": "Information Retrieval"
+    }
+  ],
+  "publications": [
+    {
+      "id": "pub-preprint-001",
+      "section": "Preprint",
+      "year": 0,
+      "month": 0,
+      "sort_order": 1,
+      "title": "A Survey on Knowledge Distillation of Large Language Models",
+      "authors": "Xiaohan Xu, Ming Li, Chongyang Tao , Tao Shen, Reynold Cheng, Jinyang Li, Can Xu, Dacheng Tao, Tianyi Zhou.",
+      "authors_html": "Xiaohan Xu, Ming Li, <strong>Chongyang Tao</strong>, Tao Shen, Reynold Cheng, Jinyang Li, Can Xu, Dacheng Tao, Tianyi Zhou.",
+      "venue": "In arxiv (2024) , 2024.02.",
+      "venue_html": "In <em>arxiv</em> <b>(2024)</b>, 2024.02.",
+      "paper_url": "https://arxiv.org/pdf/2402.13116.pdf",
+      "tags": [
+        "information-retrieval"
+      ],
+      "code_url": "",
+      "code_label": "",
+      "award": "",
+      "enabled": true
+    },
+    {
+      "id": "pub-preprint-002",
+      "section": "Preprint",
+      "year": 0,
+      "month": 0,
+      "sort_order": 2,
+      "title": "Good Questions Help Zero-Shot Image Reasoning",
+      "authors": "Kaiwen Yang, Tao Shen, Xinmei Tian, Xiubo Geng, Chongyang Tao , Dacheng Tao, Tianyi Zhou.",
+      "authors_html": "Kaiwen Yang, Tao Shen, Xinmei Tian, Xiubo Geng, <strong>Chongyang Tao</strong>, Dacheng Tao, Tianyi Zhou.",
+      "venue": "In arxiv (2023) , 2023.12.",
+      "venue_html": "In <em>arxiv</em> <b>(2023)</b>, 2023.12.",
+      "paper_url": "https://arxiv.org/pdf/2312.01598.pdf",
+      "tags": [
+        "generation"
+      ],
+      "code_url": "",
+      "code_label": "",
+      "award": "",
+      "enabled": true
+    },
+    {
+      "id": "pub-preprint-003",
+      "section": "Preprint",
+      "year": 0,
+      "month": 0,
+      "sort_order": 3,
+      "title": "Thread of thought unraveling chaotic contexts",
+      "authors": "Yucheng Zhou, Xiubo Geng, Tao Shen, Chongyang Tao , Guodong Long, Jianguang Lou.",
+      "authors_html": "Yucheng Zhou, Xiubo Geng, Tao Shen, <strong>Chongyang Tao</strong>, Guodong Long, Jianguang Lou.",
+      "venue": "In arxiv (2023) , 2023.11.",
+      "venue_html": "In <em>arxiv</em> <b>(2023)</b>, 2023.11.",
+      "paper_url": "https://arxiv.org/pdf/2311.08734.pdf",
+      "tags": [
+        "context-engineering"
+      ],
+      "code_url": "",
+      "code_label": "",
+      "award": "",
+      "enabled": true
+    },
+    {
+      "id": "pub-preprint-004",
+      "section": "Preprint",
+      "year": 0,
+      "month": 0,
+      "sort_order": 4,
+      "title": "Augmented Large Language Models with Parametric Knowledge Guiding",
+      "authors": "Ziyang Luo, Can Xu, Pu Zhao, Xiubo Geng, Chongyang Tao , Jing Ma, Qingwei Lin, Daxin Jiang.",
+      "authors_html": "Ziyang Luo, Can Xu, Pu Zhao, Xiubo Geng, <strong>Chongyang Tao</strong>, Jing Ma, Qingwei Lin, Daxin Jiang.",
+      "venue": "In arxiv (2023) , 2023.05.",
+      "venue_html": "In <em>arxiv</em> <b>(2023)</b>, 2023.05.",
+      "paper_url": "https://arxiv.org/pdf/2305.04757",
+      "tags": [
+        "generation"
+      ],
+      "code_url": "",
+      "code_label": "",
+      "award": "",
+      "enabled": true
+    },
+    {
+      "id": "pub-2026-005",
+      "section": "2026",
+      "year": 2026,
+      "month": 0,
+      "sort_order": 5,
+      "title": "JudgeSQL: Reasoning over SQL Candidates with Weighted Consensus Tournament",
+      "authors": "Jiayuan Bai, Xuanguang Pan, Chongyang Tao , Shuai Ma.",
+      "authors_html": "Jiayuan Bai, Xuanguang Pan, <strong>Chongyang Tao</strong>, Shuai Ma.",
+      "venue": "In Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing (EMNLP 2026) , Budapest, Hungary2026.10.",
+      "venue_html": "In <em>Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing</em> <b>(EMNLP 2026)</b>, Budapest, Hungary2026.10.",
+      "paper_url": "XXX",
+      "tags": [
+        "generation"
+      ],
+      "code_url": "",
+      "code_label": "",
+      "award": "",
+      "enabled": true
+    },
+    {
+      "id": "pub-2026-006",
+      "section": "2026",
+      "year": 2026,
+      "month": 0,
+      "sort_order": 6,
+      "title": "EvolSQL: Structure-Aware Evolution for Scalable Text-to-SQL Data Synthesis",
+      "authors": "Xuanguang Pan, Chongyang Tao ,, Jiayuan Bai, Jianling Gao, Kai Hua, Ge Zhang, Shuai Ma.",
+      "authors_html": "Xuanguang Pan, <strong>Chongyang Tao</strong>,, Jiayuan Bai, Jianling Gao, Kai Hua, Ge Zhang, Shuai Ma.",
+      "venue": "In Findings of the 2026 Conference on Empirical Methods in Natural Language Processing (EMNLP 2026 ) , Budapest, Hungary, 2026.10.",
+      "venue_html": "In <em>Findings of the 2026 Conference on Empirical Methods in Natural Language Processing</em> <b>(EMNLP 2026 )</b>, Budapest, Hungary, 2026.10.",
+      "paper_url": "XXX",
+      "tags": [
+        "generation"
+      ],
+      "code_url": "",
+      "code_label": "",
+      "award": "",
+      "enabled": true
+    },
+    {
+      "id": "pub-2026-007",
+      "section": "2026",
+      "year": 2026,
+      "month": 0,
+      "sort_order": 7,
+      "title": "Beyond Single Vector: Query-Aware Multi-Perspective Document Embeddings for Retrieval",
+      "authors": "Zhen Li, Chongyang Tao ,, Yihan Chen, Huishuai Zhang, Dongyan Zhao.",
+      "authors_html": "Zhen Li, <strong>Chongyang Tao</strong>,, Yihan Chen, Huishuai Zhang, Dongyan Zhao.",
+      "venue": "In Findings of the 2026 Conference on Empirical Methods in Natural Language Processing (EMNLP 2026) , Budapest, Hungary, 2026.10.",
+      "venue_html": "In <em>Findings of the 2026 Conference on Empirical Methods in Natural Language Processing</em> <b>(EMNLP 2026)</b>, Budapest, Hungary, 2026.10.",
+      "paper_url": "XXX",
+      "tags": [
+        "information-retrieval"
+      ],
+      "code_url": "",
+      "code_label": "",
+      "award": "",
+      "enabled": true
+    },
+    {
+      "id": "pub-2026-008",
+      "section": "2026",
+      "year": 2026,
+      "month": 0,
+      "sort_order": 8,
+      "title": "DialectEvo: Bridging SQL Dialects with Execution-Guided Knowledge Refinement",
+      "authors": "Jianling Gao, Chongyang Tao , Xiya Jiang, Jianyong Zhu, Shuai Ma.",
+      "authors_html": "Jianling Gao, <strong>Chongyang Tao</strong>, Xiya Jiang, Jianyong Zhu, Shuai Ma.",
+      "venue": "In Proceedings of International Conference on Very Large Data Bases (VLDB 2026) , Boston, MA, USA, 2026.08.",
+      "venue_html": "In <em>Proceedings of International Conference on Very Large Data Bases</em> <b>(VLDB 2026)</b>, Boston, MA, USA, 2026.08.",
+      "paper_url": "https://arxiv.org/pdf/2512.13279",
+      "tags": [
+        "generation"
+      ],
+      "code_url": "",
+      "code_label": "",
+      "award": "",
+      "enabled": true
+    },
+    {
+      "id": "pub-2026-009",
+      "section": "2026",
+      "year": 2026,
+      "month": 0,
+      "sort_order": 9,
+      "title": "AIR: Post-training Data Selection for Reasoning via Attention Head Influence",
+      "authors": "Jinrui Liu, Kai Hua, Xuanguang Pan, Ge Zhang, Yong Wang, Shuai Ma, Chongyang Tao .",
+      "authors_html": "Jinrui Liu, Kai Hua, Xuanguang Pan, Ge Zhang, Yong Wang, Shuai Ma, <strong>Chongyang Tao</strong>.",
+      "venue": "In Proceedings of Forty-third International Conference on Machine Learning (ICML 2026) , Seoul, South Korea, 2026.07.",
+      "venue_html": "In <em>Proceedings of Forty-third International Conference on Machine Learning</em> <b>(ICML 2026)</b>, Seoul, South Korea, 2026.07.",
+      "paper_url": "https://arxiv.org/pdf/2512.13279",
+      "tags": [
+        "generation"
+      ],
+      "code_url": "",
+      "code_label": "",
+      "award": "",
+      "enabled": true
+    },
+    {
+      "id": "pub-2026-010",
+      "section": "2026",
+      "year": 2026,
+      "month": 0,
+      "sort_order": 10,
+      "title": "Dynamic Stratified Contrastive Learning with Upstream Augmentation for MILP Branching",
+      "authors": "Tongkai Lu, Shuai Ma, Chongyang Tao .",
+      "authors_html": "Tongkai Lu, Shuai Ma, <strong>Chongyang Tao</strong>.",
+      "venue": "In Proceedings of Forty-third International Conference on Machine Learning (ICML 2026) , (Spotlight, 2.2%) , Seoul, South Korea, 2026.07.",
+      "venue_html": "In <em>Proceedings of Forty-third International Conference on Machine Learning</em> <b>(ICML 2026)</b>, <b style=\"color:red\">(Spotlight, 2.2%)</b>, Seoul, South Korea, 2026.07.",
+      "paper_url": "https://arxiv.org/pdf/2511.21107",
+      "tags": [
+        "generation"
+      ],
+      "code_url": "",
+      "code_label": "",
+      "award": "",
+      "enabled": true
+    },
+    {
+      "id": "pub-2026-011",
+      "section": "2026",
+      "year": 2026,
+      "month": 0,
+      "sort_order": 11,
+      "title": "Unsat Core Prediction through Polarity-Aware Representation Learning over Clause-Literal Hypergraphs",
+      "authors": "Zhenchao Sun, Shuai Ma, Ping Lu, Chongyang Tao .",
+      "authors_html": "Zhenchao Sun, Shuai Ma, Ping Lu, <strong>Chongyang Tao</strong>.",
+      "venue": "In Proceedings of Forty-third International Conference on Machine Learning (ICML 2026) , Seoul, South Korea, 2026.07.",
+      "venue_html": "In <em>Proceedings of Forty-third International Conference on Machine Learning</em> <b>(ICML 2026)</b>, Seoul, South Korea, 2026.07.",
+      "paper_url": "https://arxiv.org/pdf/XXX.pdf",
+      "tags": [
+        "generation"
+      ],
+      "code_url": "",
+      "code_label": "",
+      "award": "",
+      "enabled": true
+    },
+    {
+      "id": "pub-2026-012",
+      "section": "2026",
+      "year": 2026,
+      "month": 0,
+      "sort_order": 12,
+      "title": "NL2Repo-Bench: Towards Long-Horizon Repository Generation Evaluation of Coding Agents",
+      "authors": "ByteDance & NJU & PKU & BUPT & BUAA.",
+      "authors_html": "ByteDance & NJU & PKU & BUPT & BUAA.",
+      "venue": "In Proceedings of Forty-third International Conference on Machine Learning (ICML 2026) , Seoul, South Korea, 2026.07.",
+      "venue_html": "In <em>Proceedings of Forty-third International Conference on Machine Learning</em> <b>(ICML 2026)</b>, Seoul, South Korea, 2026.07.",
+      "paper_url": "https://arxiv.org/pdf/XXX.pdf",
+      "tags": [
+        "generation"
+      ],
+      "code_url": "",
+      "code_label": "",
+      "award": "",
+      "enabled": true
+    },
+    {
+      "id": "pub-2026-013",
+      "section": "2026",
+      "year": 2026,
+      "month": 0,
+      "sort_order": 13,
+      "title": "D²Evo: Dual Difficulty-Aware Self-Evolution for Data-Efficient Reinforcement Learning",
+      "authors": "Ru Zhang, Renda Li, Ziyu Ma, Weijie Qiu, Chongyang Tao , Yong Wang, Xiangxiang Chu.",
+      "authors_html": "Ru Zhang, Renda Li, Ziyu Ma, Weijie Qiu, <strong>Chongyang Tao</strong>, Yong Wang, Xiangxiang Chu.",
+      "venue": "In Proceedings of Forty-third International Conference on Machine Learning (ICML 2026) , Seoul, South Korea, 2026.07.",
+      "venue_html": "In <em>Proceedings of Forty-third International Conference on Machine Learning</em> <b>(ICML 2026)</b>, Seoul, South Korea, 2026.07.",
+      "paper_url": "https://arxiv.org/pdf/XXX.pdf",
+      "tags": [
+        "reward-model"
+      ],
+      "code_url": "",
+      "code_label": "",
+      "award": "",
+      "enabled": true
+    },
+    {
+      "id": "pub-2026-014",
+      "section": "2026",
+      "year": 2026,
+      "month": 0,
+      "sort_order": 14,
+      "title": "LLMs are Also Effective Embedding Models: An In-depth Overview",
+      "authors": "Chongyang Tao , Tao Shen, Shen Gao, Junshuo Zhang, Zhen Li, Kai Hua, Wenpeng Hu, Zhengwei Tao, Shuai Ma.",
+      "authors_html": "<strong>Chongyang Tao</strong>,  Tao Shen, Shen Gao, Junshuo Zhang, Zhen Li, Kai Hua, Wenpeng Hu, Zhengwei Tao, Shuai Ma.",
+      "venue": "In ACM Transactions on Information Systems, (TOIS 2026) , 2026.5.",
+      "venue_html": "In <em> ACM Transactions on Information Systems,</em> <b>(TOIS 2026)</b>, 2026.5.",
+      "paper_url": "https://dl.acm.org/doi/10.1145/3584701",
+      "tags": [
+        "information-retrieval"
+      ],
+      "code_url": "",
+      "code_label": "",
+      "award": "",
+      "enabled": true
+    },
+    {
+      "id": "pub-2026-015",
+      "section": "2026",
+      "year": 2026,
+      "month": 0,
+      "sort_order": 15,
+      "title": "FACTrial: Factorized Clinical Contrastive Training for Scalable Patient-Trial Retrieval",
+      "authors": "Xuanren Chen, Chongyang Tao , Tao Shen, Shuai Ma.",
+      "authors_html": "Xuanren Chen, <strong>Chongyang Tao</strong>, Tao Shen, Shuai Ma.",
+      "venue": "In Proceedings of the Annual Meeting of the Association for Computational Linguistics (ACL 2026) , San Diego, California, 2026.07.",
+      "venue_html": "In <em>Proceedings of the Annual Meeting of the Association for Computational Linguistics</em> <b>(ACL 2026)</b>, San Diego, California, 2026.07.",
+      "paper_url": "https://arxiv.org/pdf/XXX.pdf",
+      "tags": [
+        "information-retrieval"
+      ],
+      "code_url": "",
+      "code_label": "",
+      "award": "",
+      "enabled": true
+    },
+    {
+      "id": "pub-2026-016",
+      "section": "2026",
+      "year": 2026,
+      "month": 0,
+      "sort_order": 16,
+      "title": "Breaking Block Boundaries: Anchor-based History-stable Decoding for Diffusion Large Language Models",
+      "authors": "Shun Zou, Yong Wang, Zehui Chen, Lin Chen, Chongyang Tao , Feng Zhao, Xiangxiang Chu.",
+      "authors_html": "Shun Zou, Yong Wang, Zehui Chen, Lin Chen, <strong>Chongyang Tao</strong>, Feng Zhao, Xiangxiang Chu.",
+      "venue": "In Proceedings of the Annual Meeting of the Association for Computational Linguistics (ACL 2026) , San Diego, California, 2026.07.",
+      "venue_html": "In <em>Proceedings of the Annual Meeting of the Association for Computational Linguistics</em> <b>(ACL 2026)</b>, San Diego, California, 2026.07.",
+      "paper_url": "https://arxiv.org/pdf/XXX.pdf",
+      "tags": [
+        "generation"
+      ],
+      "code_url": "",
+      "code_label": "",
+      "award": "",
+      "enabled": true
+    },
+    {
+      "id": "pub-2026-017",
+      "section": "2026",
+      "year": 2026,
+      "month": 0,
+      "sort_order": 17,
+      "title": "CodeMEM: AST-Guided Adaptive Memory for Repository-Level Iterative Code Generation",
+      "authors": "Peiding Wang, Li Zhang, Fang Liu, Chongyang Tao , Yinghao Zhu.",
+      "authors_html": "Peiding Wang, Li Zhang, Fang Liu, <strong>Chongyang Tao</strong>, Yinghao Zhu.",
+      "venue": "In Proceedings of the Annual Meeting of the Association for Computational Linguistics (ACL 2026) , San Diego, California, 2026.07.",
+      "venue_html": "In <em>Proceedings of the Annual Meeting of the Association for Computational Linguistics</em> <b>(ACL 2026)</b>, San Diego, California, 2026.07.",
+      "paper_url": "https://arxiv.org/pdf/XXX.pdf",
+      "tags": [
+        "context-engineering",
+        "generation"
+      ],
+      "code_url": "",
+      "code_label": "",
+      "award": "",
+      "enabled": true
+    },
+    {
+      "id": "pub-2026-018",
+      "section": "2026",
+      "year": 2026,
+      "month": 0,
+      "sort_order": 18,
+      "title": "Empowering Targeted Neighborhood Search via Hyper Tour for Large-Scale TSP",
+      "authors": "Tongkai Lu, Shuai Ma, Chongyang Tao .",
+      "authors_html": "Tongkai Lu, Shuai Ma, <strong>Chongyang Tao</strong>.",
+      "venue": "In Frontiers of Computer Science,, (FCS 2026) , 2026.4.",
+      "venue_html": "In <em> Frontiers of Computer Science,,</em> <b>(FCS 2026)</b>, 2026.4.",
+      "paper_url": "https://dl.acm.org/doi/10.1145/3584701",
+      "tags": [
+        "information-retrieval"
+      ],
+      "code_url": "",
+      "code_label": "",
+      "award": "",
+      "enabled": true
+    },
+    {
+      "id": "pub-2025-019",
+      "section": "2025",
+      "year": 2025,
+      "month": 0,
+      "sort_order": 19,
+      "title": "WizardEvent: Empowering Event Reasoning by Hybrid Event-Aware Data Synthesizing",
+      "authors": "Zhengwei Tao, Xiancai Chen, Zhi Jin, Xiaoying Bai, Haiyan Zhao, Wenpeng Hu, Chongyang Tao , Shuai Ma.",
+      "authors_html": "Zhengwei Tao, Xiancai Chen, Zhi Jin, Xiaoying Bai, Haiyan Zhao, Wenpeng Hu, <strong>Chongyang Tao</strong>, Shuai Ma.",
+      "venue": "In Transactions on Knowledge and Data Engineering (TKDE) . 2025",
+      "venue_html": "In <em>Transactions on Knowledge and Data Engineering</em> <b>(TKDE)</b>. 2025",
+      "paper_url": "https://arxiv.org/",
+      "tags": [
+        "generation"
+      ],
+      "code_url": "",
+      "code_label": "",
+      "award": "",
+      "enabled": true
+    },
+    {
+      "id": "pub-2025-020",
+      "section": "2025",
+      "year": 2025,
+      "month": 0,
+      "sort_order": 20,
+      "title": "Semi-Supervised Anomaly Detection through Denoising-Aware Contrastive Distance Learning",
+      "authors": "Jianling Gao, Chongyang Tao , Zhenchao Sun, Xiya Jiang, Shuai Ma.",
+      "authors_html": "Jianling Gao, <strong>Chongyang Tao</strong>, Zhenchao Sun, Xiya Jiang, Shuai Ma.",
+      "venue": "In Proceedings of the International World Wide Web Conference (WWW 2025) , Sydney, Australia, 2025.01.",
+      "venue_html": "In <em>Proceedings of the International World Wide Web Conference</em> <b>(WWW 2025)</b>, Sydney, Australia, 2025.01.",
+      "paper_url": "https://arxiv.org/pdf/XXX.pdf",
+      "tags": [
+        "generation"
+      ],
+      "code_url": "",
+      "code_label": "",
+      "award": "",
+      "enabled": true
+    },
+    {
+      "id": "pub-2025-021",
+      "section": "2025",
+      "year": 2025,
+      "month": 0,
+      "sort_order": 21,
+      "title": "WizardMath: Empowering Mathematical Reasoning for Large Language Models via Reinforced Evol-Instruct",
+      "authors": "Haipeng Luo, Qingfeng Sun, Can Xu, Pu Zhao, Jianguang Lou, Chongyang Tao , Xiubo Geng, Qingwei Lin, Shifeng Chen, Dongmei Zhang.",
+      "authors_html": "Haipeng Luo, Qingfeng Sun, Can Xu, Pu Zhao, Jianguang Lou, <strong>Chongyang Tao</strong>, Xiubo Geng, Qingwei Lin, Shifeng Chen, Dongmei Zhang.",
+      "venue": "In Proceedings of the International Conference on Learning Representations (ICLR 2025) , Oral (1.8%), PaperDigist Most Influential ICLR Papers (Rank 5/3706) 2025.01.",
+      "venue_html": "In <em>Proceedings of the International Conference on Learning Representations</em> <b>(ICLR 2025)</b>, <b style=\"color:red\">Oral (1.8%), PaperDigist Most Influential ICLR Papers (Rank 5/3706)</b> 2025.01.",
+      "paper_url": "https://arxiv.org/pdf/2308.09583",
+      "tags": [
+        "reward-model",
+        "generation"
+      ],
+      "code_url": "",
+      "code_label": "",
+      "award": "",
+      "enabled": true
+    },
+    {
+      "id": "pub-2025-022",
+      "section": "2025",
+      "year": 2025,
+      "month": 0,
+      "sort_order": 22,
+      "title": "A Comprehensive Evaluation on Event Reasoning of Large Language Models",
+      "authors": "Zhengwei Tao, Zhi Jin, Yifan Zhang, Xiancai Chen, Xiaoying Bai, Yue Fang, Haiyan Zhao, Jia Li, Chongyang Tao .",
+      "authors_html": "Zhengwei Tao, Zhi Jin, Yifan Zhang, Xiancai Chen, Xiaoying Bai, Yue Fang, Haiyan Zhao, Jia Li, <strong>Chongyang Tao</strong>.",
+      "venue": "In Proceedings of the AAAI Conference on Artificial Intelligence (AAAI 2025) , Pennsylvania, US, 2024.12.",
+      "venue_html": "In <em>Proceedings of the AAAI Conference on Artificial Intelligence</em> <b>(AAAI 2025)</b>, Pennsylvania, US, 2024.12.",
+      "paper_url": "https://arxiv.org/pdf/2404.17513.pdf",
+      "tags": [
+        "generation"
+      ],
+      "code_url": "",
+      "code_label": "",
+      "award": "",
+      "enabled": true
+    },
+    {
+      "id": "pub-2025-023",
+      "section": "2025",
+      "year": 2025,
+      "month": 0,
+      "sort_order": 23,
+      "title": "LONGCODEU: Benchmarking Long-Context Language Models on Long Code Understanding",
+      "authors": "Jia Li, Xuyuan Guo, Lei Li, Kechi Zhang, Ge Li, Zhengwei Tao, Fang Liu, Chongyang Tao , Yuqi Zhu, Zhi Jin.",
+      "authors_html": "Jia Li, Xuyuan Guo, Lei Li, Kechi Zhang, Ge Li, Zhengwei Tao, Fang Liu, <strong>Chongyang Tao</strong>, Yuqi Zhu, Zhi Jin.",
+      "venue": "In Proceedings of the Annual Meeting of the Association for Computational Linguistics (ACL 2026) , San Diego, California, 2026.07.",
+      "venue_html": "In <em>Proceedings of the Annual Meeting of the Association for Computational Linguistics</em> <b>(ACL 2026)</b>, San Diego, California, 2026.07.",
+      "paper_url": "https://arxiv.org/pdf/XXX.pdf",
+      "tags": [
+        "context-engineering"
+      ],
+      "code_url": "",
+      "code_label": "",
+      "award": "",
+      "enabled": true
+    },
+    {
+      "id": "pub-2025-024",
+      "section": "2025",
+      "year": 2025,
+      "month": 0,
+      "sort_order": 24,
+      "title": "Unified Multi-scenario Summarization Evaluation and Explanation",
+      "authors": "Shuo Shang, Zhitao Yao, Hao Fu, Chongyang Tao , Xiuying Chen, Feng Wang, Yongbo Wang, Zhaochun Ren, Shen Gao.",
+      "authors_html": "Shuo Shang, Zhitao Yao, Hao Fu, <strong>Chongyang Tao</strong>, Xiuying Chen, Feng Wang, Yongbo Wang, Zhaochun Ren, Shen Gao.",
+      "venue": "In Transactions on Knowledge and Data Engineering (TKDE) . 2025",
+      "venue_html": "In <em>Transactions on Knowledge and Data Engineering</em> <b>(TKDE)</b>. 2025",
+      "paper_url": "https://arxiv.org/",
+      "tags": [
+        "generation"
+      ],
+      "code_url": "",
+      "code_label": "",
+      "award": "",
+      "enabled": true
+    },
+    {
+      "id": "pub-2025-025",
+      "section": "2025",
+      "year": 2025,
+      "month": 0,
+      "sort_order": 25,
+      "title": "Large Language Model-Aware In-Context Learning for Code Generation",
+      "authors": "Jia Li, Chongyang Tao , Jia Li, Ge Li, Zhi Jin, Huangzhao Zhang, Zheng Fang, Fang Liu.",
+      "authors_html": "Jia Li, <strong>Chongyang Tao</strong>, Jia Li, Ge Li, Zhi Jin, Huangzhao Zhang, Zheng Fang, Fang Liu.",
+      "venue": "In ACM Transactions on Software Engineering and Methodology (TOSEM) . 2025",
+      "venue_html": "In <em>ACM Transactions on Software Engineering and Methodology</em> <b>(TOSEM)</b>. 2025",
+      "paper_url": "https://arxiv.org/",
+      "tags": [
+        "context-engineering",
+        "generation"
+      ],
+      "code_url": "",
+      "code_label": "",
+      "award": "",
+      "enabled": true
+    },
+    {
+      "id": "pub-2025-026",
+      "section": "2025",
+      "year": 2025,
+      "month": 0,
+      "sort_order": 26,
+      "title": "RetriEVAL: Evaluating Text Generation with Contextualized Lexical Match",
+      "authors": "Zhen Li, Chongyang Tao , Jiazhan Feng, Tao Shen, Can Xu, Dongyan Zhao, Shuai Ma.",
+      "authors_html": "Zhen Li, <strong>Chongyang Tao</strong>, Jiazhan Feng, Tao Shen, Can Xu, Dongyan Zhao, Shuai Ma.",
+      "venue": "In Proceedings of the 18th ACM International Conference on Web Search and Data Mining (WSDM 2025) , Hannover, Germany, 2025.3",
+      "venue_html": "In <em>Proceedings of the 18th ACM International Conference on Web Search and Data Mining</em> <b>(WSDM 2025)</b>,  Hannover, Germany, 2025.3",
+      "paper_url": "https://arxiv.org/",
+      "tags": [
+        "context-engineering",
+        "generation",
+        "information-retrieval"
+      ],
+      "code_url": "",
+      "code_label": "",
+      "award": "",
+      "enabled": true
+    },
+    {
+      "id": "pub-2024-027",
+      "section": "2024",
+      "year": 2024,
+      "month": 0,
+      "sort_order": 27,
+      "title": "Re-Reading Improves Reasoning in Language Models",
+      "authors": "Xiaohan Xu, Chongyang Tao # , Tao Shen, Can Xu, Hongbo Xu, Guodong Long, Jian-guang Lou, Shuai Ma.",
+      "authors_html": "Xiaohan Xu, <strong>Chongyang Tao</strong><sup>#</sup>, Tao Shen, Can Xu, Hongbo Xu, Guodong Long, Jian-guang Lou, Shuai Ma.",
+      "venue": "In Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing (EMNLP 2024) , Miami, Florida, 2024.10.",
+      "venue_html": "In <em>Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing</em> <b>(EMNLP 2024)</b>, Miami, Florida, 2024.10.",
+      "paper_url": "https://aclanthology.org/2024.emnlp-main.871.pdf",
+      "tags": [
+        "context-engineering",
+        "generation"
+      ],
+      "code_url": "https://github.com/Tebmer/Rereading-LLM-Reasoning",
+      "code_label": "[Code]",
+      "award": "",
+      "enabled": true
+    },
+    {
+      "id": "pub-2024-028",
+      "section": "2024",
+      "year": 2024,
+      "month": 0,
+      "sort_order": 28,
+      "title": "Leveraging Large Language Models for NLG Evaluation: Advances and Challenges",
+      "authors": "Zhen Li, Xiaohan Xu, Tao Shen, Can Xu, Jia-Chen Gu, Yuxuan Lai, Chongyang Tao # , Shuai Ma.",
+      "authors_html": "Zhen Li, Xiaohan Xu, Tao Shen, Can Xu, Jia-Chen Gu, Yuxuan Lai, <strong>Chongyang Tao</strong><sup>#</sup>, Shuai Ma.",
+      "venue": "In Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing (EMNLP 2024) , Miami, Florida, 2024.10.",
+      "venue_html": "In <em>Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing</em> <b>(EMNLP 2024)</b>, Miami, Florida, 2024.10.",
+      "paper_url": "https://aclanthology.org/2024.emnlp-main.896.pdf",
+      "tags": [
+        "generation"
+      ],
+      "code_url": "",
+      "code_label": "",
+      "award": "",
+      "enabled": true
+    },
+    {
+      "id": "pub-2024-029",
+      "section": "2024",
+      "year": 2024,
+      "month": 0,
+      "sort_order": 29,
+      "title": "Synergistic Interplay between Search and Large Language Models for Information Retrieval",
+      "authors": "Jiazhan Feng*, Chongyang Tao * # , Xiubo Geng, Tao Shen, Can Xu, Guodong Long, Dongyan Zhao, Daxin Jiang.",
+      "authors_html": "Jiazhan Feng*, <strong>Chongyang Tao</strong>*<sup>#</sup>, Xiubo Geng, Tao Shen, Can Xu, Guodong Long, Dongyan Zhao, Daxin Jiang.",
+      "venue": "In Proceedings of the Annual Meeting of the Association for Computational Linguistics (ACL 2024) , Bangkok, Thailand, 2024.8.",
+      "venue_html": "In <em>Proceedings of the Annual Meeting of the Association for Computational Linguistics</em> <b>(ACL 2024)</b>, Bangkok, Thailand, 2024.8.",
+      "paper_url": "https://aclanthology.org/2024.acl-long.517.pdf",
+      "tags": [
+        "information-retrieval"
+      ],
+      "code_url": "https://github.com/Cyril-JZ/InteR",
+      "code_label": "[Code]",
+      "award": "",
+      "enabled": true
+    },
+    {
+      "id": "pub-2024-030",
+      "section": "2024",
+      "year": 2024,
+      "month": 0,
+      "sort_order": 30,
+      "title": "Adam: Dense Retrieval Distillation with Adaptive Dark Examples",
+      "authors": "Chongyang Tao *, Chang Liu*, Xiubo Geng, Tao Shen, Dongyan Zhao, Can Xu, Binxing Jiao, Daxin Jiang.",
+      "authors_html": "<strong>Chongyang Tao</strong>*, Chang Liu*, Xiubo Geng, Tao Shen, Dongyan Zhao, Can Xu, Binxing Jiao, Daxin Jiang.",
+      "venue": "In Findings of the Annual Meeting of the Association for Computational Linguistics (ACL 2024) , Bangkok, Thailand, 2024.8.",
+      "venue_html": "In <em>Findings of the Annual Meeting of the Association for Computational Linguistics</em> <b>(ACL 2024)</b>, Bangkok, Thailand, 2024.8.",
+      "paper_url": "https://aclanthology.org/2024.findings-acl.692.pdf",
+      "tags": [
+        "information-retrieval"
+      ],
+      "code_url": "",
+      "code_label": "",
+      "award": "",
+      "enabled": true
+    },
+    {
+      "id": "pub-2024-031",
+      "section": "2024",
+      "year": 2024,
+      "month": 0,
+      "sort_order": 31,
+      "title": "Meta-Task Prompting Elicits Embedding from Large Language Models",
+      "authors": "Yibin Lei, Di Wu, Tao, Shen, Yu Cao, Chongyang Tao # , Andrew Yates.",
+      "authors_html": "Yibin Lei, Di Wu, Tao, Shen, Yu Cao, <strong>Chongyang Tao</strong><sup>#</sup>, Andrew Yates.",
+      "venue": "In Proceedings of the Annual Meeting of the Association for Computational Linguistics (ACL 2024) , Bangkok, Thailand, 2024.8.",
+      "venue_html": "In <em>Proceedings of the Annual Meeting of the Association for Computational Linguistics</em> <b>(ACL 2024)</b>, Bangkok, Thailand, 2024.8.",
+      "paper_url": "https://aclanthology.org/2024.acl-long.546.pdf",
+      "tags": [
+        "context-engineering",
+        "information-retrieval"
+      ],
+      "code_url": "https://github.com/Yibin-Lei/MetaEOL",
+      "code_label": "[Code]",
+      "award": "",
+      "enabled": true
+    },
+    {
+      "id": "pub-2024-032",
+      "section": "2024",
+      "year": 2024,
+      "month": 0,
+      "sort_order": 32,
+      "title": "Retrieval-Augmented Retrieval: Large Language Models are Strong Zero-Shot Retriever",
+      "authors": "Tao Shen, Guodong Long, Xiubo Geng, Chongyang Tao # , Tianyi Zhou, Daxin Jiang.",
+      "authors_html": "Tao Shen, Guodong Long, Xiubo Geng, <strong>Chongyang Tao</strong><sup>#</sup>, Tianyi Zhou, Daxin Jiang.",
+      "venue": "In Findings of the Annual Meeting of the Association for Computational Linguistics (ACL 2024) , Bangkok, Thailand, 2024.8.",
+      "venue_html": "In <em>Findings of the Annual Meeting of the Association for Computational Linguistics</em> <b>(ACL 2024)</b>, Bangkok, Thailand, 2024.8.",
+      "paper_url": "https://aclanthology.org/2024.findings-acl.943.pdf",
+      "tags": [
+        "information-retrieval"
+      ],
+      "code_url": "",
+      "code_label": "",
+      "award": "",
+      "enabled": true
+    },
+    {
+      "id": "pub-2024-033",
+      "section": "2024",
+      "year": 2024,
+      "month": 0,
+      "sort_order": 33,
+      "title": "MEEL: Multi-Modal Event Evolution Learning",
+      "authors": "Zhengwei Tao, Zhi Jin, Junqiang Huang, Xiancai Chen, Xiaoying Bai, Haiyan Zhao, Yifan Zhang, Chongyang Tao .",
+      "authors_html": "Zhengwei Tao, Zhi Jin, Junqiang Huang, Xiancai Chen, Xiaoying Bai, Haiyan Zhao, Yifan Zhang, <strong>Chongyang Tao</strong>.",
+      "venue": "In Findings of the Annual Meeting of the Association for Computational Linguistics (ACL 2024) , Bangkok, Thailand, 2024.8.",
+      "venue_html": "In <em>Findings of the Annual Meeting of the Association for Computational Linguistics</em> <b>(ACL 2024)</b>, Bangkok, Thailand, 2024.8.",
+      "paper_url": "https://aclanthology.org/2024.findings-acl.528.pdf",
+      "tags": [
+        "generation"
+      ],
+      "code_url": "https://github.com/TZWwww/MEEL",
+      "code_label": "[Code]",
+      "award": "",
+      "enabled": true
+    },
+    {
+      "id": "pub-2024-034",
+      "section": "2024",
+      "year": 2024,
+      "month": 0,
+      "sort_order": 34,
+      "title": "Pre-training Cross-Modal Retrieval by Expansive Lexicon-Patch Alignment",
+      "authors": "Yang Yiyuan, Guodong Long, Michael Blumenstein, Xiubo Geng, Chongyang Tao , Tao Shen and Daxin Jiang.",
+      "authors_html": "Yang Yiyuan, Guodong Long, Michael Blumenstein, Xiubo Geng, <strong>Chongyang Tao</strong>, Tao Shen and Daxin Jiang.",
+      "venue": "In Proceedings of the Joint International Conference on Computational Linguistics (COLING 2024) , Torino, Italy, 2024.5.",
+      "venue_html": "In <em> Proceedings of the Joint International Conference on Computational Linguistics</em> <b>(COLING 2024)</b>, Torino, Italy, 2024.5.",
+      "paper_url": "https://aclanthology.org/2024.lrec-main.1136.pdf",
+      "tags": [
+        "information-retrieval"
+      ],
+      "code_url": "",
+      "code_label": "",
+      "award": "",
+      "enabled": true
+    },
+    {
+      "id": "pub-2024-035",
+      "section": "2024",
+      "year": 2024,
+      "month": 0,
+      "sort_order": 35,
+      "title": "Multi-Grained Conversational Graph Network for Retrieval-based Dialogue Systems",
+      "authors": "Quan Tu, Chongyang Tao , Rui Yan.",
+      "authors_html": "Quan Tu, <strong>Chongyang Tao</strong>, Rui Yan.",
+      "venue": "In Proceedings of the Joint International Conference on Computational Linguistics (COLING 2024) , Torino, Italy, 2024.5.",
+      "venue_html": "In <em> Proceedings of the Joint International Conference on Computational Linguistics</em> <b>(COLING 2024)</b>, Torino, Italy, 2024.5.",
+      "paper_url": "https://aclanthology.org/2024.lrec-main.1026.pdf",
+      "tags": [
+        "multi-party-conversation",
+        "information-retrieval"
+      ],
+      "code_url": "",
+      "code_label": "",
+      "award": "",
+      "enabled": true
+    },
+    {
+      "id": "pub-2024-036",
+      "section": "2024",
+      "year": 2024,
+      "month": 0,
+      "sort_order": 36,
+      "title": "WizadLM: Empowering Large Language Models to Follow Complex Instructions",
+      "authors": "Can Xu, Qingfeng Sun, Kai Zheng, Xiubo Geng, Jiazhan Feng, Chongyang Tao , Daxin Jiang.",
+      "authors_html": "Can Xu, Qingfeng Sun, Kai Zheng, Xiubo Geng, Jiazhan Feng, <strong>Chongyang Tao</strong>, Daxin Jiang.",
+      "venue": "In Proceedings of the International Conference on Learning Representations (ICLR 2024) (PaperDigist Most Influential ICLR Papers, Rank 5/2250) , Vienna, Austria, 2024.02.",
+      "venue_html": "In <em>Proceedings of the International Conference on Learning Representations</em> <b>(ICLR 2024)</b> <b style=\"color:red\">(PaperDigist Most Influential ICLR Papers, Rank 5/2250)</b>, Vienna, Austria, 2024.02.\n\n <img alt=\"Smiley face\" height=\"25\" src=\"uploads/new_card.png\" style=\"vertical-align:middle\" width=\"30\"/>",
+      "paper_url": "https://arxiv.org/pdf/2304.12244",
+      "tags": [
+        "generation"
+      ],
+      "code_url": "https://github.com/nlpxucan/WizardLM",
+      "code_label": "[Code]",
+      "award": "",
+      "enabled": true
+    },
+    {
+      "id": "pub-2024-037",
+      "section": "2024",
+      "year": 2024,
+      "month": 0,
+      "sort_order": 37,
+      "title": "WizardCoder: Empowering Code Large Language Models with Evol-Instruct",
+      "authors": "Ziyang Luo*, Can Xu*, Pu Zhao, Qingfeng Sun, Xiubo Geng, Wenxiang Hu, Chongyang Tao , Jing Ma, Qingwei Lin, Daxin Jiang.",
+      "authors_html": "Ziyang Luo*, Can Xu*, Pu Zhao, Qingfeng Sun, Xiubo Geng, Wenxiang Hu, <strong>Chongyang Tao</strong>, Jing Ma, Qingwei Lin, Daxin Jiang.",
+      "venue": "In Proceedings of the International Conference on Learning Representations (ICLR 2024) (PaperDigist Most Influential ICLR Papers, Rank 13/2250) , Vienna, Austria, 2024.02.",
+      "venue_html": "In <em>Proceedings of the International Conference on Learning Representations</em> <b>(ICLR 2024) </b> <b style=\"color:red\">(PaperDigist Most Influential ICLR Papers, Rank 13/2250)</b>, Vienna, Austria, 2024.02.",
+      "paper_url": "https://arxiv.org/pdf/2306.08568",
+      "tags": [
+        "generation"
+      ],
+      "code_url": "https://github.com/nlpxucan/WizardLM/tree/main/WizardCoder",
+      "code_label": "[Code]",
+      "award": "",
+      "enabled": true
+    },
+    {
+      "id": "pub-2024-038",
+      "section": "2024",
+      "year": 2024,
+      "month": 0,
+      "sort_order": 38,
+      "title": "CCPrefix: Counter- factual Contrastive Prefix-Tuning for Many-Class Classification",
+      "authors": "Yang Li, Canran Xu, Guodong Long, Tao Shen, Chongyang Tao, Jing Jiang.",
+      "authors_html": "Yang Li, Canran Xu, Guodong Long, Tao Shen, Chongyang Tao, Jing Jiang.",
+      "venue": "In Proceedings of the European Chapter of the Association for Computational Linguistics (EACL 2024) , Malta, 2024.03.",
+      "venue_html": "In <em>Proceedings of the European Chapter of the Association for Computational Linguistics </em> <b>(EACL 2024)</b>, Malta, 2024.03.",
+      "paper_url": "https://aclanthology.org/2024.eacl-long.181.pdf",
+      "tags": [
+        "generation"
+      ],
+      "code_url": "",
+      "code_label": "",
+      "award": "",
+      "enabled": true
+    },
+    {
+      "id": "pub-2024-039",
+      "section": "2024",
+      "year": 2024,
+      "month": 0,
+      "sort_order": 39,
+      "title": "Fine-Grained Distillation for Long Document Retrieval",
+      "authors": "Yucheng Zhou, Tao Shen, Xiubo Geng, Chongyang Tao , Guodong Long, Can Xu, Daxin Jiang.",
+      "authors_html": "Yucheng Zhou, Tao Shen, Xiubo Geng, <strong>Chongyang Tao</strong>, Guodong Long, Can Xu, Daxin Jiang.",
+      "venue": "In Proceedings of the AAAI Conference on Artificial Intelligence (AAAI 2024) , Vancouver, Canada, 2024.02.",
+      "venue_html": "In <em>Proceedings of the AAAI Conference on Artificial Intelligence</em> <b>(AAAI 2024)</b>, Vancouver, Canada, 2024.02.",
+      "paper_url": "https://arxiv.org/pdf/2212.10423",
+      "tags": [
+        "information-retrieval"
+      ],
+      "code_url": "",
+      "code_label": "",
+      "award": "",
+      "enabled": true
+    },
+    {
+      "id": "pub-2023-040",
+      "section": "2023",
+      "year": 2023,
+      "month": 0,
+      "sort_order": 40,
+      "title": "LexLIP: Lexicon-Bottlenecked Language-Image Pre-Training for Large-Scale Image-Text Retrieval",
+      "authors": "Ziyang Luo, Pu Zhao, Can Xu, Xiubo Geng, Tao Shen, Chongyang Tao , Jing Ma, Daxin Jiang.",
+      "authors_html": "Ziyang Luo, Pu Zhao, Can Xu, Xiubo Geng, Tao Shen, <strong>Chongyang Tao</strong>, Jing Ma, Daxin Jiang.",
+      "venue": "In Proceeding of the International Conference on Computer Vision (ICCV 2023) , 2023.08.",
+      "venue_html": "In <em>Proceeding of the International Conference on Computer Vision</em> <b>(ICCV 2023)</b>, 2023.08.",
+      "paper_url": "https://arxiv.org/pdf/2302.02908.pdf",
+      "tags": [
+        "information-retrieval"
+      ],
+      "code_url": "https://github.com/ChiYeungLaw/LexLIP-ICCV23",
+      "code_label": "[Code]",
+      "award": "",
+      "enabled": true
+    },
+    {
+      "id": "pub-2023-041",
+      "section": "2023",
+      "year": 2023,
+      "month": 0,
+      "sort_order": 41,
+      "title": "UnifieR: A Unified Retriever for Large-Scale Retrieval",
+      "authors": "Tao Shen, Xiubo Geng, Chongyang Tao , Can Xu, Kai Zhang, Daxin Jiang.",
+      "authors_html": "Tao Shen, Xiubo Geng, <strong>Chongyang Tao</strong>, Can Xu, Kai Zhang, Daxin Jiang.",
+      "venue": "In Proceeding of the ACM SIGKDD International Conference on Knowledge Discovery and Data Mining (SIGKDD 2023) , 2023.07.",
+      "venue_html": "In <em>Proceeding of the ACM SIGKDD International Conference on Knowledge Discovery and Data Mining</em> <b>(SIGKDD 2023)</b>, 2023.07.",
+      "paper_url": "https://arxiv.org/pdf/2205.11194.pdf",
+      "tags": [
+        "information-retrieval"
+      ],
+      "code_url": "https://github.com/taoshen58/UnifieR",
+      "code_label": "[Code]",
+      "award": "",
+      "enabled": true
+    },
+    {
+      "id": "pub-2023-042",
+      "section": "2023",
+      "year": 2023,
+      "month": 0,
+      "sort_order": 42,
+      "title": "CoRe: Cooperative Training of Retriever-Reranker for Effective Dialogue Response Selection",
+      "authors": "Chongyang Tao , Tao Shen, Jiazhan Feng, Chang Liu, Juntao Li, Xiubo Geng, Daxin Jiang.",
+      "authors_html": "<strong>Chongyang Tao</strong>, Tao Shen, Jiazhan Feng, Chang Liu, Juntao Li, Xiubo Geng, Daxin Jiang.",
+      "venue": "In Proceedings of the Annual Meeting of the Association for Computational Linguistics (ACL 2023) , Toronto, Canada, 2023.7.",
+      "venue_html": "In <em>Proceedings of the Annual Meeting of the Association for Computational Linguistics</em> <b>(ACL 2023)</b>, Toronto, Canada, 2023.7.",
+      "paper_url": "https://aclanthology.org/2023.acl-long.174.pdf",
+      "tags": [
+        "multi-party-conversation",
+        "information-retrieval"
+      ],
+      "code_url": "",
+      "code_label": "",
+      "award": "",
+      "enabled": true
+    },
+    {
+      "id": "pub-2023-043",
+      "section": "2023",
+      "year": 2023,
+      "month": 0,
+      "sort_order": 43,
+      "title": "FAA: Fine-grained Attention Alignment for Cascade Document Ranking",
+      "authors": "Zhen Li + , Chongyang Tao , Jiazhan Feng, Tao Shen, Dongyan Zhao, Xiubo Geng and Daxin Jiang.",
+      "authors_html": "<u>Zhen Li</u><sup>+</sup>, <strong>Chongyang Tao</strong>, Jiazhan Feng, Tao Shen, Dongyan Zhao, Xiubo Geng and Daxin Jiang.",
+      "venue": "In Proceedings of the Annual Meeting of the Association for Computational Linguistics (ACL 2023) , Toronto, Canada, 2023.7.",
+      "venue_html": "In <em>Proceedings of the Annual Meeting of the Association for Computational Linguistics</em> <b>(ACL 2023)</b>,  Toronto, Canada, 2023.7.",
+      "paper_url": "https://aclanthology.org/2023.acl-long.94.pdf",
+      "tags": [
+        "information-retrieval"
+      ],
+      "code_url": "",
+      "code_label": "",
+      "award": "",
+      "enabled": true
+    },
+    {
+      "id": "pub-2023-044",
+      "section": "2023",
+      "year": 2023,
+      "month": 0,
+      "sort_order": 44,
+      "title": "Improving the Robustness of Summarization Systems with Dual Augmentation",
+      "authors": "Xiuyin Chen + , Guodong Long, Chongyang Tao # , Xing Gao, Chengqi Zhang, Xiangliang Zhang.",
+      "authors_html": "<u>Xiuyin Chen</u><sup>+</sup>, Guodong Long, <strong>Chongyang Tao</strong><sup>#</sup>, Xing Gao, Chengqi Zhang, Xiangliang Zhang.",
+      "venue": "In Proceedings of the Annual Meeting of the Association for Computational Linguistics (ACL 2023) , Toronto, Canada, 2023.7.",
+      "venue_html": "In <em>Proceedings of the Annual Meeting of the Association for Computational Linguistics</em> <b>(ACL 2023)</b>, Toronto, Canada, 2023.7.",
+      "paper_url": "https://aclanthology.org/2023.acl-long.378.pdf",
+      "tags": [
+        "generation"
+      ],
+      "code_url": "https://github.com/iriscxy/robustness",
+      "code_label": "[Code]",
+      "award": "",
+      "enabled": true
+    },
+    {
+      "id": "pub-2023-045",
+      "section": "2023",
+      "year": 2023,
+      "month": 0,
+      "sort_order": 45,
+      "title": "MMDialog: A Large-scale Multi-turn Dialogue Dataset Towards Multi-modal Open-domain Conversation",
+      "authors": "Jiazhan Feng + , Qingfeng Sun, Can Xu, Pu Zhao, Yaming Yang, Chongyang Tao , Dongyan Zhao, Qingwei Li.",
+      "authors_html": "<u>Jiazhan Feng</u><sup>+</sup>, Qingfeng Sun, Can Xu, Pu Zhao, Yaming Yang, <strong>Chongyang Tao</strong>, Dongyan Zhao, Qingwei Li.",
+      "venue": "In Proceedings of the Annual Meeting of the Association for Computational Linguistics (ACL 2023) , Toronto, Canada, 2023.7.",
+      "venue_html": "In <em>Proceedings of the Annual Meeting of the Association for Computational Linguistics</em> <b>(ACL 2023)</b>, Toronto, Canada, 2023.7.",
+      "paper_url": "https://aclanthology.org/2023.acl-long.405.pdf",
+      "tags": [
+        "multi-party-conversation"
+      ],
+      "code_url": "https://github.com/victorsungo/MMDialog",
+      "code_label": "[Dataset]",
+      "award": "",
+      "enabled": true
+    },
+    {
+      "id": "pub-2023-046",
+      "section": "2023",
+      "year": 2023,
+      "month": 0,
+      "sort_order": 46,
+      "title": "UniEvent: Unified Generative Model with Multi-Dimensional Prefix for Zero-Shot Event-Relational Reasoning",
+      "authors": "Zhengwei Tao , Zhi Jin, Haiyan Zhao, Chengfeng Dou, Yongqiang Zhao, Tao Shen, Chongyang Tao .",
+      "authors_html": "<u>Zhengwei Tao</u>, Zhi Jin, Haiyan Zhao, Chengfeng Dou, Yongqiang Zhao, Tao Shen,<strong>Chongyang Tao</strong>.",
+      "venue": "In Proceedings of the Annual Meeting of the Association for Computational Linguistics (ACL 2023) , Toronto, Canada, 2023.7.",
+      "venue_html": "In <em>Proceedings of the Annual Meeting of the Association for Computational Linguistics</em> <b>(ACL 2023)</b>, Toronto, Canada, 2023.7.",
+      "paper_url": "https://aclanthology.org/2023.acl-long.405.pdf",
+      "tags": [
+        "generation"
+      ],
+      "code_url": "",
+      "code_label": "",
+      "award": "",
+      "enabled": true
+    },
+    {
+      "id": "pub-2023-047",
+      "section": "2023",
+      "year": 2023,
+      "month": 0,
+      "sort_order": 47,
+      "title": "SEAG: Structure-Aware Event Causality Generation",
+      "authors": "Zhengwei Tao , Zhi Jin, Xiaoying Bai, Haiyan Zhao, Fang Wang, Chengfeng Dou, Yongqiang Zhao, Chongyang Tao .",
+      "authors_html": "<u>Zhengwei Tao</u>, Zhi Jin, Xiaoying Bai, Haiyan Zhao, Fang Wang, Chengfeng Dou, Yongqiang Zhao, <strong>Chongyang Tao</strong>.",
+      "venue": "In Findings of the Annual Meeting of the Association for Computational Linguistics (ACL 2023) , Toronto, Canada, 2023.7.",
+      "venue_html": "In <em>Findings of the Annual Meeting of the Association for Computational Linguistics</em> <b>(ACL 2023)</b>, Toronto, Canada, 2023.7.",
+      "paper_url": "https://aclanthology.org/2023.acl-long.405.pdf",
+      "tags": [
+        "generation"
+      ],
+      "code_url": "",
+      "code_label": "",
+      "award": "",
+      "enabled": true
+    },
+    {
+      "id": "pub-2023-048",
+      "section": "2023",
+      "year": 2023,
+      "month": 0,
+      "sort_order": 48,
+      "title": "Towards Robust Ranker for Text Retrieval",
+      "authors": "Yucheng Zhou, Tao Shen, Xiubo Geng, Chongyang Tao , Can Xu, Guodong Long, Binxing Jiao, Daxin Jiang.",
+      "authors_html": "Yucheng Zhou, Tao Shen, Xiubo Geng, <strong>Chongyang Tao</strong>, Can Xu, Guodong Long, Binxing Jiao, Daxin Jiang.",
+      "venue": "In Findings of the Annual Meeting of the Association for Computational Linguistics (Findings of ACL 2023) , Toronto, Canada, 2023.7.",
+      "venue_html": "In <em>Findings of the Annual Meeting of the Association for Computational Linguistics</em> <b>(Findings of ACL 2023)</b>, Toronto, Canada, 2023.7.",
+      "paper_url": "https://aclanthology.org/2023.findings-acl.332.pdf",
+      "tags": [
+        "information-retrieval"
+      ],
+      "code_url": "",
+      "code_label": "",
+      "award": "",
+      "enabled": true
+    },
+    {
+      "id": "pub-2023-049",
+      "section": "2023",
+      "year": 2023,
+      "month": 0,
+      "sort_order": 49,
+      "title": "Attend, Select and Eliminate: Accelerating Multi-turn Response Selection with Dual-attention-based Content Elimination",
+      "authors": "Jianxin Liang, Chang Liu, Chongyang Tao , Jiazhan Feng and Dongyan Zhao.",
+      "authors_html": "Jianxin Liang, Chang Liu, <strong>Chongyang Tao</strong>, Jiazhan Feng and Dongyan Zhao.",
+      "venue": "In Findings of the Annual Meeting of the Association for Computational Linguistics (ACL 2023) , Toronto, Canada, 2023.7.",
+      "venue_html": "In <em>Findings of the Annual Meeting of the Association for Computational Linguistics</em> <b>(ACL 2023)</b>, Toronto, Canada, 2023.7.",
+      "paper_url": "https://aclanthology.org/2023.acl-long.405.pdf",
+      "tags": [
+        "multi-party-conversation",
+        "information-retrieval"
+      ],
+      "code_url": "",
+      "code_label": "",
+      "award": "",
+      "enabled": true
+    },
+    {
+      "id": "pub-2023-050",
+      "section": "2023",
+      "year": 2023,
+      "month": 0,
+      "sort_order": 50,
+      "title": "Length-Adaptive Distillation: Customizing Small Language Model for Dynamic Token Pruning",
+      "authors": "Chang Liu , Chongyang Tao , Jianxin Liang, Jiazhan Feng, Tao Shen, Quzhe Huang, Dongyan Zhao.",
+      "authors_html": "<u>Chang Liu</u>, <strong>Chongyang Tao</strong>, Jianxin Liang, Jiazhan Feng, Tao Shen, Quzhe Huang, Dongyan Zhao.",
+      "venue": "In Findings of the 2023 Conference on Empirical Methods in Natural Language Processing (EMNLP 2023) , Toronto, Canada, 2023.7.",
+      "venue_html": "In <em>Findings of the 2023 Conference on Empirical Methods in Natural Language Processing</em> <b>(EMNLP 2023)</b>, Toronto, Canada, 2023.7.",
+      "paper_url": "https://aclanthology.org/2023.findings-emnlp.294.pdf",
+      "tags": [
+        "generation"
+      ],
+      "code_url": "",
+      "code_label": "",
+      "award": "",
+      "enabled": true
+    },
+    {
+      "id": "pub-2023-051",
+      "section": "2023",
+      "year": 2023,
+      "month": 0,
+      "sort_order": 51,
+      "title": "MADNet: Maximizing Addressee Deduction Expectation for Multi-Party Conversation Generation",
+      "authors": "Jia-Chen Gu, Chao-Hong Tan, Caiyuan Chu, Zhen-Hua Ling, Chongyang Tao , Quan Liu, Cong Liu.",
+      "authors_html": "Jia-Chen Gu, Chao-Hong Tan, Caiyuan Chu, Zhen-Hua Ling, <strong>Chongyang Tao</strong>, Quan Liu, Cong Liu.",
+      "venue": "In Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing (EMNLP 2023) , Toronto, Canada, 2023.7.",
+      "venue_html": "In <em>Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing</em> <b>(EMNLP 2023)</b>,  Toronto, Canada, 2023.7.",
+      "paper_url": "https://aclanthology.org/2023.emnlp-main.476.pdf",
+      "tags": [
+        "multi-party-conversation",
+        "generation"
+      ],
+      "code_url": "",
+      "code_label": "",
+      "award": "",
+      "enabled": true
+    },
+    {
+      "id": "pub-2023-052",
+      "section": "2023",
+      "year": 2023,
+      "month": 0,
+      "sort_order": 52,
+      "title": "D2KM: Dimension-Disentangled Knowledge Model for Commonsense Graph Construction",
+      "authors": "Jiazhan Feng, Chongyang Tao , Tao Shen, Chang Liu, Dongyan Zhao.",
+      "authors_html": "Jiazhan Feng, <strong>Chongyang Tao</strong>, Tao Shen, Chang Liu, Dongyan Zhao.",
+      "venue": "In Proceedings of the International World Wide Web Conference (SIGIR 2023) , 2023.01.",
+      "venue_html": "In <em>Proceedings of the International World Wide Web Conference</em> <b>(SIGIR 2023)</b>, 2023.01.",
+      "paper_url": "https://arxiv.org/pdf/2208.13661.pdf",
+      "tags": [
+        "generation"
+      ],
+      "code_url": "https://github.com/drogozhang/LED",
+      "code_label": "[Code]",
+      "award": "",
+      "enabled": true
+    },
+    {
+      "id": "pub-2023-053",
+      "section": "2023",
+      "year": 2023,
+      "month": 0,
+      "sort_order": 53,
+      "title": "LED: Lexicon-Enlightened Dense Retriever for Large-Scale Retrieval",
+      "authors": "Kai Zhang + , Chongyang Tao # , Tao Shen, Can Xu, Xiubo Geng, Binxing Jiao, Daxin Jiang.",
+      "authors_html": "<u>Kai Zhang</u><sup>+</sup>, <strong>Chongyang Tao</strong><sup>#</sup>, Tao Shen, Can Xu, Xiubo Geng, Binxing Jiao, Daxin Jiang.",
+      "venue": "In Proceedings of the International World Wide Web Conference (WWW 2023) , 2023.01.",
+      "venue_html": "In <em>Proceedings of the International World Wide Web Conference</em> <b>(WWW 2023)</b>, 2023.01.",
+      "paper_url": "https://arxiv.org/pdf/2208.13661.pdf",
+      "tags": [
+        "information-retrieval"
+      ],
+      "code_url": "https://github.com/drogozhang/LED",
+      "code_label": "[Code]",
+      "award": "",
+      "enabled": true
+    },
+    {
+      "id": "pub-2023-054",
+      "section": "2023",
+      "year": 2023,
+      "month": 0,
+      "sort_order": 54,
+      "title": "HypeR: Multitask Hyper-Prompted Training Enables Large-Scale Retrieval Generalization",
+      "authors": "Zefeng Cai + , Chongyang Tao , Tao Shen, Can Xu, Xiubo Geng, Xin Alex Lin, Liang He, and Daxin Jiang.",
+      "authors_html": "<u>Zefeng Cai</u><sup>+</sup>, <strong>Chongyang Tao</strong>, Tao Shen, Can Xu, Xiubo Geng, Xin Alex Lin, Liang He, and Daxin Jiang.",
+      "venue": "In Proceedings of the International Conference on Learning Representations (ICLR 2023) , 2023.01.",
+      "venue_html": "In <em>Proceedings of the International Conference on Learning Representations</em> <b>(ICLR 2023)</b>, 2023.01.",
+      "paper_url": "https://openreview.net/forum?id=kUf4BcWXGJr",
+      "tags": [
+        "context-engineering",
+        "information-retrieval"
+      ],
+      "code_url": "https://github.com/oklen/HypeR",
+      "code_label": "[Code]",
+      "award": "",
+      "enabled": true
+    },
+    {
+      "id": "pub-2023-055",
+      "section": "2023",
+      "year": 2023,
+      "month": 0,
+      "sort_order": 55,
+      "title": "LexMAE: Lexicon-Bottlenecked Pretraining for Large-Scale Retrieval",
+      "authors": "Tao Shen, Xiubo Geng, Chongyang Tao , Can Xu, Xiaolong Huang, Binxing Jiao, Linjun Yang, Daxin Jiang.",
+      "authors_html": "Tao Shen, Xiubo Geng, <strong>Chongyang Tao</strong>, Can Xu, Xiaolong Huang, Binxing Jiao, Linjun Yang, Daxin Jiang.",
+      "venue": "In Proceedings of the International Conference on Learning Representations (ICLR 2023) , 2023.01.",
+      "venue_html": "In <em>Proceedings of the International Conference on Learning Representations</em> <b>(ICLR 2023)</b>, 2023.01.",
+      "paper_url": "https://arxiv.org/pdf/2208.14754.pdf",
+      "tags": [
+        "information-retrieval"
+      ],
+      "code_url": "https://github.com/taoshen58/LexMAE",
+      "code_label": "[Code]",
+      "award": "",
+      "enabled": true
+    },
+    {
+      "id": "pub-2023-056",
+      "section": "2023",
+      "year": 2023,
+      "month": 0,
+      "sort_order": 56,
+      "title": "KnowDA: All-in-One Knowledge Mixture Model for Data Augmentation in Few-Shot NLP",
+      "authors": "Yufei Wang, Jiayi Zheng, Can Xu, Xiubo Geng, Tao Shen, Chongyang Tao , Daxin Jiang.",
+      "authors_html": "Yufei Wang, Jiayi Zheng, Can Xu, Xiubo Geng, Tao Shen, <strong>Chongyang Tao</strong>, Daxin Jiang.",
+      "venue": "In Proceedings of the International Conference on Learning Representations (ICLR 2023) , 2023.01.",
+      "venue_html": "In <em>Proceedings of the International Conference on Learning Representations</em> <b>(ICLR 2023)</b>, 2023.01.",
+      "paper_url": "https://arxiv.org/pdf/2206.10265.pdf",
+      "tags": [
+        "generation"
+      ],
+      "code_url": "https://github.com/GaryYufei/ICLR2023_KnowDA",
+      "code_label": "[Code]",
+      "award": "",
+      "enabled": true
+    },
+    {
+      "id": "pub-2023-057",
+      "section": "2023",
+      "year": 2023,
+      "month": 0,
+      "sort_order": 57,
+      "title": "Learning Multi-turn Response Selection in Grounded Dialogues with Reinforced Knowledge and Context Distillation",
+      "authors": "Jiazhan Feng + , Chongyang Tao # , Xueliang Zhao, Rui Yan, Dongyan Zhao.",
+      "authors_html": "<u>Jiazhan Feng</u><sup>+</sup>, <strong>Chongyang Tao</strong><sup>#</sup>, Xueliang Zhao, Rui Yan, Dongyan Zhao.",
+      "venue": "In ACM Transactions on Information Systems, Volume 41, Issue 4, Article No.115. (TOIS 2023) , 2023.4.",
+      "venue_html": "In <em> ACM Transactions on Information Systems, Volume 41, Issue 4, Article No.115.</em> <b>(TOIS 2023)</b>, 2023.4.",
+      "paper_url": "https://dl.acm.org/doi/10.1145/3584701",
+      "tags": [
+        "reward-model",
+        "context-engineering",
+        "multi-party-conversation",
+        "information-retrieval"
+      ],
+      "code_url": "",
+      "code_label": "",
+      "award": "",
+      "enabled": true
+    },
+    {
+      "id": "pub-2022-058",
+      "section": "2022",
+      "year": 2022,
+      "month": 0,
+      "sort_order": 58,
+      "title": "PCL: Peer-Contrastive Learning with Diverse Augmentations for Unsupervised Sentence Embeddings",
+      "authors": "Qiyu Wu + , Chongyang Tao , Tao Shen, Can Xu, Xiubo Geng, Daxin Jiang.",
+      "authors_html": "<u>Qiyu Wu</u><sup>+</sup>, <strong>Chongyang Tao</strong>, Tao Shen, Can Xu, Xiubo Geng, Daxin Jiang.",
+      "venue": "In Proceedings of the Conference on Empirical Methods in Natural Language Processing (EMNLP 2022) , 2022.11.",
+      "venue_html": "In <em>Proceedings of the Conference on Empirical Methods in Natural Language Processing</em> <b>(EMNLP 2022)</b>, 2022.11.",
+      "paper_url": "https://aclanthology.org/2022.emnlp-main.826.pdf",
+      "tags": [
+        "information-retrieval"
+      ],
+      "code_url": "https://github.com/qiyuw/PeerCL",
+      "code_label": "[Code]",
+      "award": "",
+      "enabled": true
+    },
+    {
+      "id": "pub-2022-059",
+      "section": "2022",
+      "year": 2022,
+      "month": 0,
+      "sort_order": 59,
+      "title": "Rethinking Task-Specific Knowledge Distillation: Contextualized Corpus as Better Textbook",
+      "authors": "Chang Liu + , Chongyang Tao # , Jianxin Liang, Tao Shen, Jiazhan Feng, Quzhe Huang, Dongyan Zhao.",
+      "authors_html": "<u>Chang Liu</u><sup>+</sup>, <strong>Chongyang Tao</strong><sup>#</sup>, Jianxin Liang, Tao Shen, Jiazhan Feng, Quzhe Huang, Dongyan Zhao.",
+      "venue": "In Proceedings of the Conference on Empirical Methods in Natural Language Processing (EMNLP 2022) , 2022.11",
+      "venue_html": "In <em>Proceedings of the Conference on Empirical Methods in Natural Language Processing</em> <b>(EMNLP 2022)</b>, 2022.11",
+      "paper_url": "https://aclanthology.org/2022.emnlp-main.729.pdf",
+      "tags": [
+        "context-engineering",
+        "information-retrieval"
+      ],
+      "code_url": "",
+      "code_label": "",
+      "award": "",
+      "enabled": true
+    },
+    {
+      "id": "pub-2022-060",
+      "section": "2022",
+      "year": 2022,
+      "month": 0,
+      "sort_order": 60,
+      "title": "How to Represent Context Better? An Empirical Study on Context Modeling for Multi-turn Response Selection",
+      "authors": "Jiazhan Feng , Chongyang Tao , Chang Liu, Rui Yan, Dongyan Zhao.",
+      "authors_html": "<u>Jiazhan Feng</u>, <strong>Chongyang Tao</strong>, Chang Liu, Rui Yan, Dongyan Zhao.",
+      "venue": "In Findings of the Conference on Empirical Methods in Natural Language Processing (EMNLP 2022) , 2022.11",
+      "venue_html": "In <em>Findings of the Conference on Empirical Methods in Natural Language Processing</em> <b>(EMNLP 2022)</b>, 2022.11",
+      "paper_url": "https://aclanthology.org/2022.findings-emnlp.539.pdf",
+      "tags": [
+        "context-engineering",
+        "multi-party-conversation",
+        "information-retrieval"
+      ],
+      "code_url": "",
+      "code_label": "",
+      "award": "",
+      "enabled": true
+    },
+    {
+      "id": "pub-2022-061",
+      "section": "2022",
+      "year": 2022,
+      "month": 0,
+      "sort_order": 61,
+      "title": "There Is No Standard Answer: Knowledge-Grounded Dialogue Generation with Adversarial Activated Multi-Reference Learning",
+      "authors": "Tingchen Fu*, Xueliang Zhao *, Chongyang Tao , Rui Yan, Ji-Rong Wen.",
+      "authors_html": "Tingchen Fu*, <u>Xueliang Zhao</u>*, <strong>Chongyang Tao</strong>, Rui Yan, Ji-Rong Wen.",
+      "venue": "In Proceedings of the Conference on Empirical Methods in Natural Language Processing (EMNLP 2022) , 2022.11",
+      "venue_html": "In <em>Proceedings of the Conference on Empirical Methods in Natural Language Processing</em> <b>(EMNLP 2022)</b>, 2022.11",
+      "paper_url": "https://aclanthology.org/2022.emnlp-main.123.pdf",
+      "tags": [
+        "multi-party-conversation",
+        "generation"
+      ],
+      "code_url": "",
+      "code_label": "",
+      "award": "",
+      "enabled": true
+    },
+    {
+      "id": "pub-2022-062",
+      "section": "2022",
+      "year": 2022,
+      "month": 0,
+      "sort_order": 62,
+      "title": "Collaborative Reasoning on Multi-Modal Semantic Graphs for Video-Grounded Dialogue Generation",
+      "authors": "Xueliang Zhao, Yuxuan Wang, Chongyang Tao , Chenshuo Wang, Dongyan Zhao.",
+      "authors_html": "Xueliang Zhao, Yuxuan Wang, <strong>Chongyang Tao</strong>, Chenshuo Wang, Dongyan Zhao.",
+      "venue": "In Findings of the Conference on Empirical Methods in Natural Language Processing (EMNLP 2022) , 2022.11",
+      "venue_html": "In <em>Findings of the Conference on Empirical Methods in Natural Language Processing</em> <b>(EMNLP 2022)</b>, 2022.11",
+      "paper_url": "https://aclanthology.org/2022.findings-emnlp.442.pdf",
+      "tags": [
+        "multi-party-conversation",
+        "generation"
+      ],
+      "code_url": "",
+      "code_label": "",
+      "award": "",
+      "enabled": true
+    },
+    {
+      "id": "pub-2022-063",
+      "section": "2022",
+      "year": 2022,
+      "month": 0,
+      "sort_order": 63,
+      "title": "Learning to Express in Knowledge-Grounded Conversation",
+      "authors": "Xueliang Zhao , Tingchen Fu, Chongyang Tao , Wei Wu, Dongyan Zhao, Rui Yan.",
+      "authors_html": "<u>Xueliang Zhao</u>, Tingchen Fu, <strong>Chongyang Tao</strong>, Wei Wu, Dongyan Zhao, Rui Yan.",
+      "venue": "In Proceedings of the North American Chapter of the Association for Computational Linguistics - Human Language Technologies (NAACL-HLT 2022) , Seattle, Washington, 2022.7",
+      "venue_html": "In <em>Proceedings of the North American Chapter of the Association for Computational Linguistics - Human Language Technologies</em> <b>(NAACL-HLT 2022)</b>, Seattle, Washington, 2022.7",
+      "paper_url": "https://aclanthology.org/2022.naacl-main.164.pdf",
+      "tags": [
+        "multi-party-conversation"
+      ],
+      "code_url": "",
+      "code_label": "",
+      "award": "",
+      "enabled": true
+    },
+    {
+      "id": "pub-2022-064",
+      "section": "2022",
+      "year": 2022,
+      "month": 0,
+      "sort_order": 64,
+      "title": "Who Says What to Whom: A Survey of Multi-Party Conversations",
+      "authors": "Jia-chen Gu + , Chongyang Tao , Zhen-Hua Ling.",
+      "authors_html": "<u>Jia-chen Gu</u><sup>+</sup>, <strong>Chongyang Tao</strong>, Zhen-Hua Ling.",
+      "venue": "In Proceedings of the 31th International Joint Conference on Artificial Intelligence (IJCAI 2022) , Vienna, Austria, 2022.7",
+      "venue_html": "In <em>Proceedings of the 31th International Joint Conference on Artificial Intelligence</em> <b>(IJCAI 2022)</b>, Vienna, Austria, 2022.7",
+      "paper_url": "https://www.ijcai.org/proceedings/2022/768",
+      "tags": [
+        "multi-party-conversation"
+      ],
+      "code_url": "",
+      "code_label": "",
+      "award": "",
+      "enabled": true
+    },
+    {
+      "id": "pub-2022-065",
+      "section": "2022",
+      "year": 2022,
+      "month": 0,
+      "sort_order": 65,
+      "title": "HeterMPC: A Heterogeneous Graph Neural Network for Response Generation in Multi-Party Conversations",
+      "authors": "Jia-Chen Gu + , Chao-Hong Tan + , Chongyang Tao , Zhen-Hua Ling, Huang Hu, Xiubo Geng, Daxin Jiang.",
+      "authors_html": "<u>Jia-Chen Gu</u><sup>+</sup>, Chao-Hong Tan<sup>+</sup>, <strong>Chongyang Tao</strong>, Zhen-Hua Ling, Huang Hu, Xiubo Geng, Daxin Jiang.",
+      "venue": "In Proceedings of the Annual Meeting of the Association for Computational Linguistics (ACL 2022) , Dublin, Ireland, 2022.5.",
+      "venue_html": "In <em>Proceedings of the Annual Meeting of the Association for Computational Linguistics</em> <b>(ACL 2022)</b>, Dublin, Ireland, 2022.5.",
+      "paper_url": "https://aclanthology.org/2022.acl-long.349.pdf",
+      "tags": [
+        "multi-party-conversation",
+        "generation"
+      ],
+      "code_url": "https://github.com/JasonForJoy/MPC-BERT",
+      "code_label": "[Code]",
+      "award": "",
+      "enabled": true
+    },
+    {
+      "id": "pub-2022-066",
+      "section": "2022",
+      "year": 2022,
+      "month": 0,
+      "sort_order": 66,
+      "title": "Multi-Granularity Structural Knowledge Distillation for Language Model Compression",
+      "authors": "Chang Liu , Chongyang Tao # , Jiazhan Feng, Dongyan Zhao.",
+      "authors_html": "<u>Chang Liu</u>, <strong>Chongyang Tao</strong><sup>#</sup>, Jiazhan Feng, Dongyan Zhao.",
+      "venue": "In Proceedings of the Annual Meeting of the Association for Computational Linguistics (ACL 2022) , Dublin, Ireland, 2022.5.",
+      "venue_html": "In <em>Proceedings of the Annual Meeting of the Association for Computational Linguistics</em> <b>(ACL 2022)</b>, Dublin, Ireland, 2022.5.",
+      "paper_url": "https://aclanthology.org/2022.acl-long.71.pdf",
+      "tags": [
+        "information-retrieval"
+      ],
+      "code_url": "https://github.com/LC97-pku/MGSKD",
+      "code_label": "[Code]",
+      "award": "",
+      "enabled": true
+    },
+    {
+      "id": "pub-2022-067",
+      "section": "2022",
+      "year": 2022,
+      "month": 0,
+      "sort_order": 67,
+      "title": "ProphetChat: Enhancing Dialogue Generation with Simulation of Future Conversation",
+      "authors": "Chang Liu , Xu Tan, Chongyang Tao , Zhenxin Fu, Dongyan Zhao, Tie-Yan Liu, Rui Yan.",
+      "authors_html": "<u>Chang Liu</u>, Xu Tan, <strong>Chongyang Tao</strong>, Zhenxin Fu, Dongyan Zhao, Tie-Yan Liu, Rui Yan.",
+      "venue": "In Proceedings of the Annual Meeting of the Association for Computational Linguistics (ACL 2022) , Dublin, Ireland, 2022.5",
+      "venue_html": "In <em>Proceedings of the Annual Meeting of the Association for Computational Linguistics</em> <b>(ACL 2022)</b>, Dublin, Ireland, 2022.5",
+      "paper_url": "https://aclanthology.org/2022.acl-long.68.pdf",
+      "tags": [
+        "multi-party-conversation",
+        "generation"
+      ],
+      "code_url": "",
+      "code_label": "",
+      "award": "",
+      "enabled": true
+    },
+    {
+      "id": "pub-2022-068",
+      "section": "2022",
+      "year": 2022,
+      "month": 0,
+      "sort_order": 68,
+      "title": "There Are a Thousand Hamlets in a Thousand People's Eyes: Enhancing Knowledge-grounded Dialogue with Personal Memory",
+      "authors": "Tingchen Fu*, Xueliang Zhao *, Chongyang Tao , Ji-Rong Wen, Rui Yan.",
+      "authors_html": "Tingchen Fu*, <u>Xueliang Zhao</u>*, <strong>Chongyang Tao</strong>, Ji-Rong Wen, Rui Yan.",
+      "venue": "In Proceedings of the Annual Meeting of the Association for Computational Linguistics (ACL 2022) , Dublin, Ireland, 2022.5",
+      "venue_html": "In <em>Proceedings of the Annual Meeting of the Association for Computational Linguistics</em> <b>(ACL 2022)</b>, Dublin, Ireland, 2022.5",
+      "paper_url": "https://aclanthology.org/2022.acl-long.270.pdf",
+      "tags": [
+        "context-engineering",
+        "multi-party-conversation"
+      ],
+      "code_url": "",
+      "code_label": "",
+      "award": "",
+      "enabled": true
+    },
+    {
+      "id": "pub-2022-069",
+      "section": "2022",
+      "year": 2022,
+      "month": 0,
+      "sort_order": 69,
+      "title": "Prompt-based Data Augmentation for Low-Resource NLU Tasks",
+      "authors": "Yufei Wang, Can Xu, Qingfeng Sun, Huang Hu, Chongyang Tao , Xiubo Geng, Daxin Jiang.",
+      "authors_html": "Yufei Wang, Can Xu, Qingfeng Sun, Huang Hu, <strong>Chongyang Tao</strong>, Xiubo Geng, Daxin Jiang.",
+      "venue": "In Proceedings of the Annual Meeting of the Association for Computational Linguistics (ACL 2022) , Dublin, Ireland, 2022.5",
+      "venue_html": "In <em>Proceedings of the Annual Meeting of the Association for Computational Linguistics</em> <b>(ACL 2022)</b>, Dublin, Ireland, 2022.5",
+      "paper_url": "https://arxiv.org/pdf/2202.12499.pdf",
+      "tags": [
+        "context-engineering"
+      ],
+      "code_url": "https://github.com/GaryYufei/PromDA",
+      "code_label": "[Code]",
+      "award": "",
+      "enabled": true
+    },
+    {
+      "id": "pub-2022-070",
+      "section": "2022",
+      "year": 2022,
+      "month": 0,
+      "sort_order": 70,
+      "title": "TegTok: Augmenting Text Generation via Task-specific and Open-world Knowledge",
+      "authors": "Chao-Hong Tan + , Jia-Chen Gu + , Chongyang Tao , Zhen-Hua Ling, Can Xu, Huang Hu, Xiubo Geng, Daxin Jiang.",
+      "authors_html": "<u>Chao-Hong Tan</u><sup>+</sup>, <u>Jia-Chen Gu</u><sup>+</sup>, <strong>Chongyang Tao</strong>, Zhen-Hua Ling, Can Xu, Huang Hu, Xiubo Geng, Daxin Jiang.",
+      "venue": "In Proceedings of the Annual Meeting of the Association for Computational Linguistics (ACL 2022 Findings) , Dublin, Ireland, 2022.5.",
+      "venue_html": "In <em>Proceedings of the Annual Meeting of the Association for Computational Linguistics</em> <b>(ACL 2022 Findings)</b>, Dublin, Ireland, 2022.5.",
+      "paper_url": "https://aclanthology.org/2022.findings-acl.125.pdf",
+      "tags": [
+        "generation"
+      ],
+      "code_url": "https://github.com/lxchtan/TegTok",
+      "code_label": "[Code]",
+      "award": "",
+      "enabled": true
+    },
+    {
+      "id": "pub-2022-071",
+      "section": "2022",
+      "year": 2022,
+      "month": 0,
+      "sort_order": 71,
+      "title": "Unsupervised Cross-Domain Adaptation for Response Selection Using Self-Supervised and Adversarial Training",
+      "authors": "Jia Li + , Chongyang Tao , Huang Hu, Can Xu, Yining Chen and Daxin Jiang.",
+      "authors_html": "<u>Jia Li</u><sup>+</sup>, <strong>Chongyang Tao</strong>, Huang Hu, Can Xu, Yining Chen and Daxin Jiang.",
+      "venue": "In Proceedings of the Twelfth ACM International Conference on Web Search and Data Mining (WSDM 2022) , Phoenix, Arizona, 2022.2",
+      "venue_html": "In <em>Proceedings of the Twelfth ACM International Conference on Web Search and Data Mining</em> <b>(WSDM 2022)</b>, Phoenix, Arizona, 2022.2",
+      "paper_url": "https://dl.acm.org/doi/abs/10.1145/3488560.3498404",
+      "tags": [
+        "information-retrieval"
+      ],
+      "code_url": "",
+      "code_label": "",
+      "award": "",
+      "enabled": true
+    },
+    {
+      "id": "pub-2021-072",
+      "section": "2021",
+      "year": 2021,
+      "month": 0,
+      "sort_order": 72,
+      "title": "Neural Rule-Execution Tracking Machine For Transformer-Based Text Generation",
+      "authors": "Yufei Wang, Can Xu, Huang Hu, Chongyang Tao , Stephen Wan, Mark Dras, Mark Johnson, Daxin Jiang.",
+      "authors_html": "Yufei Wang, Can Xu, Huang Hu, <strong>Chongyang Tao</strong>, Stephen Wan, Mark Dras, Mark Johnson, Daxin Jiang.",
+      "venue": "In Advances in Neural Information Processing Systems (NeurIPS 2021) , 2021.11",
+      "venue_html": "In <em>Advances in Neural Information Processing Systems</em> <b>(NeurIPS 2021)</b>, 2021.11",
+      "paper_url": "https://arxiv.org/pdf/2107.13077.pdf",
+      "tags": [
+        "generation"
+      ],
+      "code_url": "hhttps://slideslive.com/38968718/neural-ruleexecution-tracking-machine-for-transformerbased-text-generation?ref=speaker-33161",
+      "code_label": "[Video]",
+      "award": "",
+      "enabled": true
+    },
+    {
+      "id": "pub-2021-073",
+      "section": "2021",
+      "year": 2021,
+      "month": 0,
+      "sort_order": 73,
+      "title": "MPC-BERT: A Pre-Trained Language Model for Multi-Party Conversation Understanding",
+      "authors": "Jia-Chen Gu + , Chongyang Tao , Zhenhua Ling, Can Xu, Xiubo Geng, Daxin Jiang.",
+      "authors_html": "<u>Jia-Chen Gu</u><sup>+</sup>, <strong>Chongyang Tao</strong>, Zhenhua Ling, Can Xu, Xiubo Geng, Daxin Jiang.",
+      "venue": "In Proceedings of the Annual Meeting of the Association for Computational Linguistics (ACL 2021) , 2021.8",
+      "venue_html": "In <em>Proceedings of the Annual Meeting of the Association for Computational Linguistics</em> <b>(ACL 2021)</b>, 2021.8",
+      "paper_url": "https://aclanthology.org/2021.acl-long.285.pdf",
+      "tags": [
+        "multi-party-conversation"
+      ],
+      "code_url": "https://github.com/JasonForJoy/MPC-BERT",
+      "code_label": "[Code]",
+      "award": "",
+      "enabled": true
+    },
+    {
+      "id": "pub-2021-074",
+      "section": "2021",
+      "year": 2021,
+      "month": 0,
+      "sort_order": 74,
+      "title": "Maria: A Visual Experience Powered Conversational Agent",
+      "authors": "Zujie Liang, Huang Hu, Can Xu, Chongyang Tao , Xiubo Geng, Yining Chen, Fan Liang, Daxin Jiang.",
+      "authors_html": "Zujie Liang, Huang Hu, Can Xu, <strong>Chongyang Tao</strong>, Xiubo Geng, Yining Chen, Fan Liang, Daxin Jiang.",
+      "venue": "In Proceedings of the Annual Meeting of the Association for Computational Linguistics (ACL 2021) , 2021.8",
+      "venue_html": "In <em>Proceedings of the Annual Meeting of the Association for Computational Linguistics</em> <b>(ACL 2021)</b>, 2021.8",
+      "paper_url": "https://arxiv.org/pdf/2105.13073.pdf",
+      "tags": [
+        "multi-party-conversation"
+      ],
+      "code_url": "https://github.com/jokieleung/Maria",
+      "code_label": "[Code]",
+      "award": "",
+      "enabled": true
+    },
+    {
+      "id": "pub-2021-075",
+      "section": "2021",
+      "year": 2021,
+      "month": 0,
+      "sort_order": 75,
+      "title": "A Pre-training Strategy for Zero-Resource Response Selection in Knowledge-Grounded Conversations",
+      "authors": "Chongyang Tao , Changyu Chen, Jiazhan Feng, Ji-Rong Wen, Rui Yan.",
+      "authors_html": "<strong>Chongyang Tao</strong>, Changyu Chen, Jiazhan Feng, Ji-Rong Wen, Rui Yan.",
+      "venue": "In Proceedings of the Annual Meeting of the Association for Computational Linguistics (ACL 2021) , 2021.8",
+      "venue_html": "In <em>Proceedings of the Annual Meeting of the Association for Computational Linguistics</em> <b>(ACL 2021)</b>, 2021.8",
+      "paper_url": "https://aclanthology.org/2021.acl-long.343.pdf",
+      "tags": [
+        "multi-party-conversation",
+        "information-retrieval"
+      ],
+      "code_url": "",
+      "code_label": "",
+      "award": "",
+      "enabled": true
+    },
+    {
+      "id": "pub-2021-076",
+      "section": "2021",
+      "year": 2021,
+      "month": 0,
+      "sort_order": 76,
+      "title": "A Survey on Response Selection for Retrieval-based Dialogues",
+      "authors": "Chongyang Tao , Jiazhan Feng, Rui Yan, Wei Wu, Daxin Jiang.",
+      "authors_html": "<strong>Chongyang Tao</strong>, Jiazhan Feng, Rui Yan, Wei Wu, Daxin Jiang.",
+      "venue": "In Proceedings of the 30th International Joint Conference on Artificial Intelligence (IJCAI 2021) , 2021.8",
+      "venue_html": "In <em>Proceedings of the 30th International Joint Conference on Artificial Intelligence</em> <b>(IJCAI 2021)</b>, 2021.8",
+      "paper_url": "https://www.ijcai.org/proceedings/2021/0627.pdf",
+      "tags": [
+        "multi-party-conversation",
+        "information-retrieval"
+      ],
+      "code_url": "",
+      "code_label": "",
+      "award": "",
+      "enabled": true
+    },
+    {
+      "id": "pub-2021-077",
+      "section": "2021",
+      "year": 2021,
+      "month": 0,
+      "sort_order": 77,
+      "title": "Learning to Organize a Bag of Words into Sentences with Neural Networks: An Empirical Study",
+      "authors": "Chongyang Tao , Shen Gao, Juntao Li, Yansong Feng, Dongyan Zhao, Rui Yan.",
+      "authors_html": "<strong>Chongyang Tao</strong>, Shen Gao, Juntao Li, Yansong Feng, Dongyan Zhao, Rui Yan.",
+      "venue": "In Proceedings of the North American Chapter of the Association for Computational Linguistics (NAACL 2021) , 2021.6",
+      "venue_html": "In <em>Proceedings of the North American Chapter of the Association for Computational Linguistics</em> <b>(NAACL 2021)</b>, 2021.6",
+      "paper_url": "https://aclanthology.org/2021.naacl-main.134.pdf",
+      "tags": [
+        "generation"
+      ],
+      "code_url": "",
+      "code_label": "",
+      "award": "",
+      "enabled": true
+    },
+    {
+      "id": "pub-2021-078",
+      "section": "2021",
+      "year": 2021,
+      "month": 0,
+      "sort_order": 78,
+      "title": "Response Ranking with Multi-types of Deep Interactive Representations in Retrieval-based Dialogues",
+      "authors": "Ruijian Xu , Chongyang Tao # , Jiazhan Feng, Wei Wu, Rui Yan, Dongyan Zhao.",
+      "authors_html": "<u>Ruijian Xu</u>, <strong>Chongyang Tao</strong><sup>#</sup>, Jiazhan Feng, Wei Wu, Rui Yan, Dongyan Zhao.",
+      "venue": "In ACM Transactions on Information Systems, Volume 39, Issue 4 (TOIS 2021) , 2021.8",
+      "venue_html": "In <em> ACM Transactions on Information Systems, Volume 39, Issue 4</em> <b>(TOIS 2021)</b>, 2021.8",
+      "paper_url": "https://dl.acm.org/doi/10.1145/3462207",
+      "tags": [
+        "multi-party-conversation",
+        "information-retrieval"
+      ],
+      "code_url": "",
+      "code_label": "",
+      "award": "",
+      "enabled": true
+    },
+    {
+      "id": "pub-2021-079",
+      "section": "2021",
+      "year": 2021,
+      "month": 0,
+      "sort_order": 79,
+      "title": "Learning an Effective Context-Response Matching Model with Self-Supervised Tasks for Retrieval-based Dialogues",
+      "authors": "Ruijian Xu , Chongyang Tao # , Daxin Jiang, Xueliang Zhao, Dongyan Zhao, Rui Yan.",
+      "authors_html": "<u>Ruijian Xu</u>, <strong>Chongyang Tao</strong><sup>#</sup>, Daxin Jiang, Xueliang Zhao, Dongyan Zhao, Rui Yan.",
+      "venue": "In Proceedings of the AAAI Conference on Artificial Intelligence (AAAI 2021) , 2021.2.",
+      "venue_html": "In <em>Proceedings of the AAAI Conference on Artificial Intelligence</em> <b>(AAAI 2021)</b>, 2021.2.",
+      "paper_url": "https://arxiv.org/pdf/2009.06265.pdf",
+      "tags": [
+        "context-engineering",
+        "multi-party-conversation",
+        "information-retrieval"
+      ],
+      "code_url": "https://github.com/RayXu14/SL4DU",
+      "code_label": "[Code]",
+      "award": "",
+      "enabled": true
+    },
+    {
+      "id": "pub-2021-080",
+      "section": "2021",
+      "year": 2021,
+      "month": 0,
+      "sort_order": 80,
+      "title": "Dialogue History Matters! Personalized Response Selectionin Multi-turn Retrieval-based Chatbots",
+      "authors": "Juntao Li*, Chang Liu*, Chongyang Tao , Zhangming Chan, Dongyan Zhao, Rui Yan.",
+      "authors_html": "Juntao Li*, Chang Liu*, <strong>Chongyang Tao</strong>, Zhangming Chan, Dongyan Zhao, Rui Yan.",
+      "venue": "In ACM Transactions on Information Systems, Volume 39, Issue 4 (TOIS 2021) , 2021.2",
+      "venue_html": "In <em> ACM Transactions on Information Systems, Volume 39, Issue 4</em> <b>(TOIS 2021)</b>, 2021.2",
+      "paper_url": "https://arxiv.org/pdf/2103.09534.pdf",
+      "tags": [
+        "context-engineering",
+        "multi-party-conversation",
+        "information-retrieval"
+      ],
+      "code_url": "",
+      "code_label": "",
+      "award": "",
+      "enabled": true
+    },
+    {
+      "id": "pub-2020-081",
+      "section": "2020",
+      "year": 2020,
+      "month": 0,
+      "sort_order": 81,
+      "title": "Zero-Resource Knowledge-Grounded Dialogue Generation",
+      "authors": "Linxiao Li, Can Xu, Wei Wu, Yufan Zhao, Xueliang Zhao, Chongyang Tao .",
+      "authors_html": "Linxiao Li, Can Xu, Wei Wu, Yufan Zhao, Xueliang Zhao, <strong>Chongyang Tao</strong>.",
+      "venue": "In Advances in Neural Information Processing Systems (NeurIPS 2020) , 2020.12",
+      "venue_html": "In <em>Advances in Neural Information Processing Systems</em> <b>(NeurIPS 2020)</b>, 2020.12",
+      "paper_url": "https://arxiv.org/pdf/2008.12918.pdf",
+      "tags": [
+        "multi-party-conversation",
+        "generation"
+      ],
+      "code_url": "https://github.com/nlpxucan/ZRKGC",
+      "code_label": "[Code]",
+      "award": "",
+      "enabled": true
+    },
+    {
+      "id": "pub-2020-082",
+      "section": "2020",
+      "year": 2020,
+      "month": 0,
+      "sort_order": 82,
+      "title": "Knowledge-Grounded Dialogue Generation with Pre-trained Language Models",
+      "authors": "Xueliang Zhao, Wei Wu, Can Xu, Chongyang Tao , Dongyan Zhao, Rui Yan.",
+      "authors_html": "Xueliang Zhao, Wei Wu, Can Xu, <strong>Chongyang Tao</strong>, Dongyan Zhao, Rui Yan.",
+      "venue": "In Proceedings of the Conference on Empirical Methods in Natural Language Processing (EMNLP 2020) , 2020.11",
+      "venue_html": "In <em>Proceedings of the Conference on Empirical Methods in Natural Language Processing</em> <b>(EMNLP 2020)</b>, 2020.11",
+      "paper_url": "https://www.aclweb.org/anthology/2020.emnlp-main.272",
+      "tags": [
+        "multi-party-conversation",
+        "generation"
+      ],
+      "code_url": "https://github.com/zhaoxlpku/KnowledGPT",
+      "code_label": "[Code]",
+      "award": "",
+      "enabled": true
+    },
+    {
+      "id": "pub-2020-083",
+      "section": "2020",
+      "year": 2020,
+      "month": 0,
+      "sort_order": 83,
+      "title": "Learning to Detect Relevant Contexts and Knowledge for Response Selection in Retrieval-based Dialogue Systems",
+      "authors": "Kai Hua + , Zhiyuan Feng , Chongyang Tao , Rui Yan, Lu Zhang.",
+      "authors_html": "<u>Kai Hua</u><sup>+</sup>, <u>Zhiyuan Feng</u>, <strong>Chongyang Tao</strong>, Rui Yan, Lu Zhang.",
+      "venue": "In Proceedings of the 29th ACM International Conference on Information and Knowledge Management (CIKM 2020) , 2020.10",
+      "venue_html": "In <em>Proceedings of the 29th ACM International Conference on Information and Knowledge Management</em> <b>(CIKM 2020)</b>, 2020.10",
+      "paper_url": "https://dl.acm.org/doi/abs/10.1145/3340531.3411967",
+      "tags": [
+        "context-engineering",
+        "multi-party-conversation",
+        "information-retrieval"
+      ],
+      "code_url": "",
+      "code_label": "",
+      "award": "",
+      "enabled": true
+    },
+    {
+      "id": "pub-2020-084",
+      "section": "2020",
+      "year": 2020,
+      "month": 0,
+      "sort_order": 84,
+      "title": "Improving Matching Models with Hierarchical Contextualized Representations for Multi-turn Response Selection",
+      "authors": "Chongyang Tao , Wei Wu, Yansong Feng, Dongyan Zhao, Rui Yan.",
+      "authors_html": "<strong>Chongyang Tao</strong>, Wei Wu, Yansong Feng, Dongyan Zhao, Rui Yan.",
+      "venue": "In Proceedings of the 43rd International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR 2020) , 2020.07",
+      "venue_html": "In <em>Proceedings of the 43rd International ACM SIGIR Conference on Research and Development in Information Retrieval</em> <b>(SIGIR 2020)</b>, 2020.07",
+      "paper_url": "https://dl.acm.org/doi/10.1145/3397271.3401290",
+      "tags": [
+        "context-engineering",
+        "multi-party-conversation",
+        "information-retrieval"
+      ],
+      "code_url": "",
+      "code_label": "",
+      "award": "",
+      "enabled": true
+    },
+    {
+      "id": "pub-2020-085",
+      "section": "2020",
+      "year": 2020,
+      "month": 0,
+      "sort_order": 85,
+      "title": "Low-Resource Knowledge-Grounded Dialogue Generation",
+      "authors": "Xueliang Zhao , Wei Wu, Chongyang Tao , Can Xu, Dongyan Zhao, Rui Yan.",
+      "authors_html": "<u>Xueliang Zhao</u>, Wei Wu, <strong>Chongyang Tao</strong>, Can Xu, Dongyan Zhao, Rui Yan.",
+      "venue": "In Proceedings of the International Conference on Learning Representations (ICLR 2020) , 2020.4",
+      "venue_html": "In <em>Proceedings of the International Conference on Learning Representations</em> <b>(ICLR 2020)</b>, 2020.4",
+      "paper_url": "https://openreview.net/pdf?id=rJeIcTNtvS",
+      "tags": [
+        "multi-party-conversation",
+        "generation"
+      ],
+      "code_url": "",
+      "code_label": "",
+      "award": "",
+      "enabled": true
+    },
+    {
+      "id": "pub-2019-086",
+      "section": "2019",
+      "year": 2019,
+      "month": 0,
+      "sort_order": 86,
+      "title": "One Time of Interaction May Not Be Enough: Go Deep with an Interaction-over-Interaction Network for Response Selection in Dialogues",
+      "authors": "Chongyang Tao , Wei Wu, Can Xu, Wenpeng Hu, Dongyan Zhao and Rui Yan.",
+      "authors_html": "<strong>Chongyang Tao</strong>, Wei Wu, Can Xu, Wenpeng Hu, Dongyan Zhao and Rui Yan.",
+      "venue": "In Proceedings of the Annual Meeting of the Association for Computational Linguistics (ACL 2019) , Florence, Italy, 2019.7",
+      "venue_html": "In <em>Proceedings of the Annual Meeting of the Association for Computational Linguistics</em> <b>(ACL 2019)</b>, Florence, Italy, 2019.7",
+      "paper_url": "https://aclanthology.org/P19-1001.pdf",
+      "tags": [
+        "multi-party-conversation",
+        "information-retrieval"
+      ],
+      "code_url": "https://github.com/chongyangtao/IOI",
+      "code_label": "[Code]",
+      "award": "",
+      "enabled": true
+    },
+    {
+      "id": "pub-2019-087",
+      "section": "2019",
+      "year": 2019,
+      "month": 0,
+      "sort_order": 87,
+      "title": "Learning a Matching Model with Co-teaching for Multi-turn Response Selection in Retrieval-based Dialogue Systems",
+      "authors": "Jiazhan Feng*, Chongyang Tao *, Wei Wu, Yansong Feng, Dongyan Zhao and Rui Yan.",
+      "authors_html": "Jiazhan Feng*, <strong>Chongyang Tao</strong>*, Wei Wu, Yansong Feng, Dongyan Zhao and Rui Yan.",
+      "venue": "In Proceedings of the Annual Meeting of the Association for Computational Linguistics (ACL 2021) , Florence, Italy, 2019.7",
+      "venue_html": "In <em>Proceedings of the Annual Meeting of the Association for Computational Linguistics</em> <b>(ACL 2021)</b>, Florence, Italy, 2019.7",
+      "paper_url": "https://aclanthology.org/P19-1370.pdf",
+      "tags": [
+        "multi-party-conversation",
+        "information-retrieval"
+      ],
+      "code_url": "",
+      "code_label": "",
+      "award": "",
+      "enabled": true
+    },
+    {
+      "id": "pub-2019-088",
+      "section": "2019",
+      "year": 2019,
+      "month": 0,
+      "sort_order": 88,
+      "title": "Neural Response Generation with Meta-words",
+      "authors": "Can Xu, Wei Wu, Chongyang Tao , Huang Hu and Matt Schuerman.",
+      "authors_html": "Can Xu, Wei Wu, <strong>Chongyang Tao</strong>, Huang Hu and Matt Schuerman.",
+      "venue": "In Proceedings of the Annual Meeting of the Association for Computational Linguistics (ACL 2019) , Florence, Italy, 2019.7",
+      "venue_html": "In <em>Proceedings of the Annual Meeting of the Association for Computational Linguistics</em> <b>(ACL 2019)</b>, Florence, Italy, 2019.7",
+      "paper_url": "https://aclanthology.org/P19-1538.pdf",
+      "tags": [
+        "generation"
+      ],
+      "code_url": "",
+      "code_label": "",
+      "award": "",
+      "enabled": true
+    },
+    {
+      "id": "pub-2019-089",
+      "section": "2019",
+      "year": 2019,
+      "month": 0,
+      "sort_order": 89,
+      "title": "A Document-grounded Matching Network for Response Selection in Retrieval-based Chatbots",
+      "authors": "Xueliang Zhao*, Chongyang Tao *, Wei Wu, Yansong Feng, Dongyan Zhao and Rui Yan.",
+      "authors_html": "Xueliang Zhao*, <strong>Chongyang Tao</strong>*, Wei Wu, Yansong Feng, Dongyan Zhao and Rui Yan.",
+      "venue": "In Proceedings of the 27th International Joint Conference on Artificial Intelligence (IJCAI 2019) , Macao, China, 2019.8",
+      "venue_html": "In <em>Proceedings of the 27th International Joint Conference on Artificial Intelligence</em> <b>(IJCAI 2019)</b>, Macao, China, 2019.8",
+      "paper_url": "https://www.ijcai.org/Proceedings/2019/0756.pdf",
+      "tags": [
+        "information-retrieval"
+      ],
+      "code_url": "",
+      "code_label": "",
+      "award": "",
+      "enabled": true
+    },
+    {
+      "id": "pub-2019-090",
+      "section": "2019",
+      "year": 2019,
+      "month": 0,
+      "sort_order": 90,
+      "title": "EnsembleGAN: Adversarial Learning for Retrieval-Generation Ensemble Model on Short-Text Conversation",
+      "authors": "Jiayi Zhang*, Chongyang Tao *, Zhenjing Xu, Qiaojing Xie, Wei Chen and Rui Yan.",
+      "authors_html": "Jiayi Zhang*, <strong>Chongyang Tao</strong>*, Zhenjing Xu, Qiaojing Xie, Wei Chen and Rui Yan.",
+      "venue": "In Proceedings of the Annual Meeting of the Association for Computational Linguistics (SIGIR 2019) , Paris, France, 2019.7",
+      "venue_html": "In <em>Proceedings of the Annual Meeting of the Association for Computational Linguistics</em> <b>(SIGIR 2019)</b>, Paris, France, 2019.7",
+      "paper_url": "https://arxiv.org/pdf/2004.14592.pdf",
+      "tags": [
+        "multi-party-conversation",
+        "generation",
+        "information-retrieval"
+      ],
+      "code_url": "",
+      "code_label": "",
+      "award": "",
+      "enabled": true
+    },
+    {
+      "id": "pub-2019-091",
+      "section": "2019",
+      "year": 2019,
+      "month": 0,
+      "sort_order": 91,
+      "title": "Sampling Matters! An Empirical Study of Negative Sampling Strategies for Learning of Matching Models in Retrieval-based Dialogue Systems",
+      "authors": "Jia Li, Chongyang Tao , Wei Wu, Yansong Feng, Dongyan Zhao, Rui Yan.",
+      "authors_html": "Jia Li, <strong>Chongyang Tao</strong>, Wei Wu, Yansong Feng, Dongyan Zhao, Rui Yan.",
+      "venue": "In Proceedings of the Conference on Empirical Methods in Natural Language Processing (EMNLP 2019) , Hong Kong, China, 2019.11",
+      "venue_html": "In <em>Proceedings of the Conference on Empirical Methods in Natural Language Processing</em> <b>(EMNLP 2019)</b>, Hong Kong, China, 2019.11",
+      "paper_url": "https://aclanthology.org/D19-1128.pdf",
+      "tags": [
+        "multi-party-conversation",
+        "information-retrieval"
+      ],
+      "code_url": "",
+      "code_label": "",
+      "award": "",
+      "enabled": true
+    },
+    {
+      "id": "pub-2019-092",
+      "section": "2019",
+      "year": 2019,
+      "month": 0,
+      "sort_order": 92,
+      "title": "Overcoming Catastrophic Forgetting via Model Adaptation",
+      "authors": "Wenpeng Hu, Zhou Lin, Bin Liu, Chongyang Tao , Zhengwei Tao, Jinwen Ma, Dongyan Zhao and Rui Yan.",
+      "authors_html": "Wenpeng Hu, Zhou Lin, Bin Liu, <strong>Chongyang Tao</strong>, Zhengwei Tao,  Jinwen Ma, Dongyan Zhao and Rui Yan.",
+      "venue": "In Proceedings of the International Conference on Learning Representations (ICLR 2019) , New Orleans, Louisiana, 2019.7",
+      "venue_html": "In <em>Proceedings of the International Conference on Learning Representations</em> <b>(ICLR 2019)</b>, New Orleans, Louisiana, 2019.7",
+      "paper_url": "https://openreview.net/forum?id=ryGvcoA5YX",
+      "tags": [
+        "generation"
+      ],
+      "code_url": "https://github.com/morning-dews/PGMA_tensorflow",
+      "code_label": "[Code]",
+      "award": "",
+      "enabled": true
+    },
+    {
+      "id": "pub-2019-093",
+      "section": "2019",
+      "year": 2019,
+      "month": 0,
+      "sort_order": 93,
+      "title": "Mimicking Human Process: Text Representation via Latent Semantic Clustering for Classification",
+      "authors": "Xiaoye Tan, Rui Yan, Chongyang Tao , Mingrui Wu.",
+      "authors_html": "Xiaoye Tan, Rui Yan, <strong>Chongyang Tao</strong>, Mingrui Wu.",
+      "venue": "In Proceedings of the CCF International Conference on Natural Language Processing and Chinese Computing (NLPCC 2019 & 2nd workshop of HAI at IJCAI 2019, Outstanding Paper Award ) , Dunhuang, China, 2019.7",
+      "venue_html": "In <em>Proceedings of the CCF International Conference on Natural Language Processing and Chinese Computing</em> <b>(NLPCC 2019 &amp; 2nd workshop of HAI at IJCAI 2019, <b style=\"color:red\">Outstanding Paper Award</b>)</b>  , Dunhuang, China, 2019.7",
+      "paper_url": "https://arxiv.org/pdf/1906.07525.pdf",
+      "tags": [
+        "generation"
+      ],
+      "code_url": "",
+      "code_label": "",
+      "award": "",
+      "enabled": true
+    },
+    {
+      "id": "pub-2019-094",
+      "section": "2019",
+      "year": 2019,
+      "month": 0,
+      "sort_order": 94,
+      "title": "Multi-Representation Fusion Network for Multi-turn Response Selection in Retrieval-based Chatbots",
+      "authors": "Chongyang Tao , Wei Wu, Can Xu, Wenpeng Hu, Dongyan Zhao and Rui Yan.",
+      "authors_html": "<strong>Chongyang Tao</strong>, Wei Wu, Can Xu, Wenpeng Hu, Dongyan Zhao and Rui Yan.",
+      "venue": "In Proceedings of the Twelfth ACM International Conference on Web Search and Data Mining (WSDM 2019) , Melbourne, Australia, 2019.2",
+      "venue_html": "In <em>Proceedings of the Twelfth ACM International Conference on Web Search and Data Mining</em> <b>(WSDM 2019)</b>, Melbourne, Australia, 2019.2",
+      "paper_url": "https://dl.acm.org/doi/10.1145/3289600.3290985",
+      "tags": [
+        "multi-party-conversation",
+        "information-retrieval"
+      ],
+      "code_url": "https://github.com/chongyangtao/MRFN",
+      "code_label": "[Code]",
+      "award": "",
+      "enabled": true
+    },
+    {
+      "id": "pub-2018-095",
+      "section": "2018",
+      "year": 2018,
+      "month": 0,
+      "sort_order": 95,
+      "title": "Iterative Document Representation Learning Towards Summarization with Polishing",
+      "authors": "Xiuying Chen, Shen Gao, Chongyang Tao , Dongyan Zhao and Rui Yan.",
+      "authors_html": "Xiuying Chen, Shen Gao, <strong>Chongyang Tao</strong>, Dongyan Zhao and Rui Yan.",
+      "venue": "In Proceedings of the Conference on Empirical Methods in Natural Language Processing (EMNLP 2018) , Brussels, Belgium, 2018.11",
+      "venue_html": "In <em>Proceedings of the Conference on Empirical Methods in Natural Language Processing</em> <b>(EMNLP 2018)</b>, Brussels, Belgium, 2018.11",
+      "paper_url": "https://aclanthology.org/D18-1442.pdf",
+      "tags": [
+        "generation"
+      ],
+      "code_url": "https://github.com/iriscxy/Iterative-Document-Representation-Learning-Towards-Summarization-with-Polishing",
+      "code_label": "[Code]",
+      "award": "",
+      "enabled": true
+    },
+    {
+      "id": "pub-2018-096",
+      "section": "2018",
+      "year": 2018,
+      "month": 0,
+      "sort_order": 96,
+      "title": "Playing 20 Question Game with Policy-Based Reinforcement Learning",
+      "authors": "Huang Hu, Xianchao Wu, Bingfeng Luo, Chongyang Tao , Can Xu, Wei Wu and Zhan Chen.",
+      "authors_html": "Huang Hu, Xianchao Wu, Bingfeng Luo, <strong>Chongyang Tao</strong>, Can Xu, Wei Wu and Zhan Chen.",
+      "venue": "In Proceedings of the Conference on Empirical Methods in Natural Language Processing (EMNLP 2018) , Brussels, Belgium, 2018.11",
+      "venue_html": "In <em>Proceedings of the Conference on Empirical Methods in Natural Language Processing</em> <b>(EMNLP 2018)</b>, Brussels, Belgium, 2018.11",
+      "paper_url": "http://aclweb.org/anthology/D18-1361",
+      "tags": [
+        "reward-model"
+      ],
+      "code_url": "https://github.com/stonyhu/Q20-DeepRL",
+      "code_label": "[Code]",
+      "award": "",
+      "enabled": true
+    },
+    {
+      "id": "pub-2018-097",
+      "section": "2018",
+      "year": 2018,
+      "month": 0,
+      "sort_order": 97,
+      "title": "Get The Point of My Utterance! Learning Towards Effective Responses with Multi-Head Attention Mechanism",
+      "authors": "Chongyang Tao , Shen Gao, Mingyue Shang, Wei Wu, Dongyan Zhao and Rui Yan.",
+      "authors_html": "<strong>Chongyang Tao</strong>, Shen Gao, Mingyue Shang, Wei Wu, Dongyan Zhao and Rui Yan.",
+      "venue": "In Proceedings of the 27th International Joint Conference on Artificial Intelligence (IJCAI 2018) , Stockholm, Sweden, 2018.7",
+      "venue_html": "In <em>Proceedings of the 27th International Joint Conference on Artificial Intelligence</em> <b>(IJCAI 2018)</b>, Stockholm, Sweden, 2018.7",
+      "paper_url": "https://www.ijcai.org/proceedings/2018/0614.pdf",
+      "tags": [
+        "generation"
+      ],
+      "code_url": "",
+      "code_label": "",
+      "award": "",
+      "enabled": true
+    },
+    {
+      "id": "pub-2018-098",
+      "section": "2018",
+      "year": 2018,
+      "month": 0,
+      "sort_order": 98,
+      "title": "RUBER: An Unsupervised Method for Automatic Evaluation of Open-Domain Dialog Systems",
+      "authors": "Chongyang Tao , Lili Mou, Dongyan Zhao and Rui Yan.",
+      "authors_html": "<strong>Chongyang Tao</strong>, Lili Mou, Dongyan Zhao and Rui Yan.",
+      "venue": "In Proceedings of the Thirty-Second AAAI Conference on Artificial Intelligence (AAAI 2018) , New Orleans, Louisiana, 2018.2",
+      "venue_html": "In <em>Proceedings of the Thirty-Second AAAI Conference on Artificial Intelligence</em> <b>(AAAI 2018)</b>, New Orleans, Louisiana, 2018.2",
+      "paper_url": "https://arxiv.org/pdf/1701.03079.pdf",
+      "tags": [
+        "multi-party-conversation"
+      ],
+      "code_url": "",
+      "code_label": "",
+      "award": "",
+      "enabled": true
+    }
+  ]
+}
