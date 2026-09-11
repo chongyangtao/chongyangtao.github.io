@@ -11,7 +11,7 @@
  h1, h2, h3 { font-weight: bold; font-family: Helvetica, Arial, sans-serif; }
  h1 { font-size: 36px; }
  h2 { font-size: 20px; color: #8DC919; background-color: #ffffff; padding: .3em 0; }
- h3 { font-size: 1.0em; text-transform: uppercase; }
+ h3 { font-size: 1.0em; text-transform: none; }
  #container { width: 770px; margin: 0 auto; padding-top: 15px; }
  #content_box { width: 770px; text-align: left; float: left; clear: both; line-height: 1.5; }
  #content_box { font-size: 14px; line-height: 1.5; }
@@ -68,7 +68,7 @@
  #header-right .wsite-search-input { width: 156px; height: 26px; border: none; padding: 0 7px 0 7px !important; color: #010101; font-size: 12px; background: url(theme/input-bg.jpg?1404312959) no-repeat; }
  #header-right .wsite-search-button { position: relative; width: 35px; height: 26px; border: none; cursor: pointer; background: url(theme/submit.jpg?1404312959) no-repeat; }
  #nav ul { font-family: Arial; list-style: none; width: 770px; background: url('theme/hr_dot_black.gif?1404312959') repeat-x; padding: 1px 0 0 0; border-bottom: 3px solid #000; float: left; clear: both; }
- #nav ul li { padding: 0 16px 0 0; font: bold 1.4em Helvetica, Arial, sans-serif; text-transform: uppercase; float: left; }
+ #nav ul li { padding: 0 16px 0 0; font: bold 1.4em Helvetica, Arial, sans-serif; text-transform: none; float: left; }
  #nav ul li a { float: left; height: 37px; line-height: 37px; padding: 0 12px; color: #838383; background-color: #ffffff; text-decoration: none; }
  #nav ul li a:hover, #nav ul li#active a { color: #8DC919; background-color: #f8f8f8; text-decoration: none; }
  #wsite-menus .wsite-menu li a { border: none; border-left: none; border-right: none; border-bottom: 1px solid #dbdbdb; background: #f8f8f8; color: #555555; padding: 5px 8px 5px 12px; }
@@ -476,7 +476,7 @@ hr { border: 0; }
 .research-area-visual {
   display: flex;
   align-items: center;
-  aspect-ratio: 16 / 8;
+  aspect-ratio: 16 / 6;
   padding: 0;
   background: linear-gradient(135deg, var(--accent-strong), #1d5b58);
 }
@@ -690,7 +690,7 @@ hr { border: 0; }
 
 .publication-title {
   margin-bottom: 7px;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 1.35;
   font-weight: 750;
 }
@@ -830,7 +830,7 @@ hr { border: 0; }
     display: block;
     width: 100%;
   }
-  
+
 h2.section-title,
   .research-areas-heading h2 {
     display: block;
